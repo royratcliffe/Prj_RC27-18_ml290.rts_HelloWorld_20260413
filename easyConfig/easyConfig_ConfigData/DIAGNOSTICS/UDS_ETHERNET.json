@@ -1,0 +1,13 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "testerIPv4Address" : "192.168.0.100",
+  "testerLogicalAddress" : "3712",
+  "testerCidr" : "/16",
+  "ecuIPv4Address" : "192.168.0.1",
+  "ecuLogicalAddress" : "256",
+  "ecuCidr" : "/16",
+  "numberOfUdpEcus" : 0,
+  "numberOfTcpClients" : 0,
+  "numberOfRemoteTcpClients" : 0,
+  "numberOfLocalTcpClients" : 0
+}

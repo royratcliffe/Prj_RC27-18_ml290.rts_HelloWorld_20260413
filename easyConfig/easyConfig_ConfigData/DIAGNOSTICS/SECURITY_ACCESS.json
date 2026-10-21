@@ -1,0 +1,340 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "securityAccessBlocks" : [ {
+    "blockId" : "6b7f0b6c-5c79-4fc6-a73a-4deac0eb50ba",
+    "securityLevel" : 0,
+    "name" : "Non_Secure",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "DEFAULT_SESSION", "EOL_SESSION", "EXTENDED_DIAGNOSTIC_SESSION", "PROGRAMMING_SESSION", "SAFETY_SYSTEM_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : false
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : false
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : false
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : false
+    } ]
+  }, {
+    "blockId" : "e5a7d84b-f350-4255-84d1-826d860d4cb0",
+    "securityLevel" : 1,
+    "name" : "SecuAcsLvl_1",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 1,
+    "numAttLock" : 3,
+    "usePort" : "USE_ASYNCH_FNC",
+    "sessionRefs" : [ "EXTENDED_DIAGNOSTIC_SESSION", "PROGRAMMING_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "f919e069-0f21-4aec-ac24-2e49ab19548e",
+    "securityLevel" : 2,
+    "name" : "SecuAcsLvl_2",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 1,
+    "numAttLock" : 3,
+    "usePort" : "USE_ASYNCH_FNC",
+    "sessionRefs" : [ "EXTENDED_DIAGNOSTIC_SESSION", "PROGRAMMING_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "9974e8ab-f342-4caf-acb3-1033de28c20f",
+    "securityLevel" : 3,
+    "name" : "SecuAcsLvl_3",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "68b0112f-e9ea-497b-b2f9-e19ba1ff97ff",
+    "securityLevel" : 4,
+    "name" : "SecuAcsLvl_4",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "5cf16c69-dc9f-4550-9c1c-4b8b061eafd1",
+    "securityLevel" : 5,
+    "name" : "SecuAcsLvl_5",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "ce8c28b2-c9a8-417a-b20d-f6a444468587",
+    "securityLevel" : 6,
+    "name" : "SecuAcsLvl_6",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "40a3e421-d2f6-4646-a67d-50551a81fc79",
+    "securityLevel" : 7,
+    "name" : "SecuAcsLvl_7",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "0c7b7d32-b41e-451c-91c9-2c39de35817d",
+    "securityLevel" : 8,
+    "name" : "SecuAcsLvl_8",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "8abb0b5d-ec78-4f40-b0f0-edd0a2ec684d",
+    "securityLevel" : 9,
+    "name" : "SecuAcsLvl_9",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  }, {
+    "blockId" : "698db8b6-4dd4-4f86-b5f3-5f95288eb98c",
+    "securityLevel" : 10,
+    "name" : "SecuAcsLvl_10",
+    "sizeOfKey" : 16,
+    "sizeOfSeed" : 16,
+    "compareKeyFnc" : "rbr_udsCustSec_evalKey",
+    "delayTime" : 0.5,
+    "delayTimeOnBoot" : 0.5,
+    "getSeedFnc" : "rbr_udsCustSec_getSeed",
+    "numAttDelay" : 3,
+    "numAttLock" : 10,
+    "usePort" : "USE_SYNCH_FNC",
+    "sessionRefs" : [ "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION" ],
+    "services" : [ {
+      "name" : "ECUReset",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "CommunicationControl",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ControlDTCSetting",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "ClearDiagnosticInformation",
+      "addServiceIndicator" : true
+    }, {
+      "name" : "RoutineControl",
+      "addServiceIndicator" : true
+    } ]
+  } ],
+  "securityManager" : [ {
+    "name" : "UDSSecurityManager",
+    "useBodasSecurityManager" : true,
+    "securitySessions" : [ "DEFAULT_SESSION", "PROGRAMMING_SESSION", "EXTENDED_DIAGNOSTIC_SESSION", "SAFETY_SYSTEM_DIAGNOSTIC_SESSION", "EOL_SESSION" ],
+    "securityServices" : [ "ECUReset", "CommunicationControl", "ControlDTCSetting", "ClearDiagnosticInformation", "RoutineControl", "RequestDownload", "RequestUpload", "TransferData", "RequestTransferExit" ]
+  } ]
+}

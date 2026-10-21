@@ -1,0 +1,20 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "linGlobalDef" : {
+    "linGlobalDefinitionId" : "e8d7e66b-35e4-410a-9500-e3b798053038",
+    "name" : "Lin_Global_Def",
+    "baudrate" : 19200,
+    "breakLength" : 13,
+    "gotoSleepFrameCounter" : 3,
+    "cycleTime" : "10",
+    "protocolVersion" : "2.0",
+    "breakDelLength" : 1
+  },
+  "linScheduleTables" : [ ],
+  "linSignalTypes" : [ ],
+  "linChannels" : [ {
+    "name" : "LIN_1",
+    "channelId" : "af40b77c-9d19-4747-b2ba-b23ea5a81497",
+    "nodes" : [ ]
+  } ]
+}
