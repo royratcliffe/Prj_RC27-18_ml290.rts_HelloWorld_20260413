@@ -1,0 +1,182 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: EngCU RC40 Bservice FanDrvCU
+
+
+BO_ 2566844675 CCVS: 3 RC40
+ SG_ WheelBasedVehicleSpeed : 8|16@1+ (1,0) [0|65535] "km/h" Vector__XXX
+ SG_ ParkingBrakeSwitch : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 2565866496 EngCtrl1: 5 EngCU
+ SG_ EngSpeed : 24|16@1- (0.125,0) [-32768|32767] "rpm"  RC40
+ SG_ ActualEngPercentTorque : 16|8@1- (1,-125) [-128|127] "%"  RC40
+
+BO_ 2566843904 ET1: 8 EngCU
+ SG_ EngCoolantTemp : 0|8@1- (1,-40) [-128|127] "deg"  RC40
+ SG_ EngOilTemp1 : 16|16@1- (0.03125,-273) [-32768|32767] "deg"  RC40
+
+BO_ 2566834691 DM1: 8 RC40
+ SG_ FlashEngineRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashEngineProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashEngineMalfuncIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashEngineAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ MalfunctionIndicatorLampStatus : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ AmberWarningLampStatus : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ OccurenceCount1 : 40|7@1+ (1,0) [0|126] "" Vector__XXX
+ SG_ SPNConversionMethod1 : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FailureModeIdentifier1 : 32|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SPN1 : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ RedStopLampState : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ProtectLampStatus : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ SPN1High : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 2566831438 FD: 8 FanDrvCU
+ SG_ FanSpeed : 16|16@1+ (0.125,0) [0|65535] "rpm"  RC40
+ SG_ EstPercentFanSpeed : 0|8@1+ (0.4,0) [0|255] "%"  RC40
+
+
+
+CM_ BU_ EngCU "Engine ECU";
+CM_ BU_ RC40 "Rexroth ECU RC40";
+CM_ BU_ Bservice "BODAS-service Tool";
+CM_ BU_ FanDrvCU "Fan Drive Controller";
+CM_ BO_ 2566844675 "Cruise Control/Vehicle Speed";
+CM_ SG_ 2566844675 WheelBasedVehicleSpeed "Speed of the vehicle as calculated from wheel or tailshaft speed.";
+CM_ SG_ 2566844675 ParkingBrakeSwitch "Switch signal which indicates when the parking brake is set.";
+CM_ BO_ 2565866496 "Electronic Engine Controller 1";
+CM_ SG_ 2565866496 ActualEngPercentTorque "The calculated output torque of the engine.";
+CM_ BO_ 2566843904 "Engine Temperature 1";
+CM_ SG_ 2566843904 EngCoolantTemp "Temperature of liquid found in engine cooling system.";
+CM_ SG_ 2566843904 EngOilTemp1 "Temperature of the engine lubricant.";
+CM_ BO_ 2566834691 "Active diagnostic trouble codes";
+CM_ SG_ 2566834691 FlashEngineRedStopLamp "This parameter provides the capability to flash the RSL (SPN 3039).";
+CM_ SG_ 2566834691 FlashEngineProtectLamp "This parameter provides the capability to flash the engine protect lamp (SPN 3041).";
+CM_ SG_ 2566834691 FlashEngineMalfuncIndicatorLamp "This parameter provides the capability to flash the MIL (SPN 3038).";
+CM_ SG_ 2566834691 FlashEngineAmberWarningLamp "This parameter provides the capability to flash the AWL (SPN 3040). ";
+CM_ SG_ 2566834691 MalfunctionIndicatorLampStatus "A lamp used to relay only emissions-related trouble code information.";
+CM_ SG_ 2566834691 AmberWarningLampStatus "This lamp is used to relay trouble code information that is reporting a problem with the vehicle system but the vehicle need
+not be immediately stopped.";
+CM_ SG_ 2566834691 OccurenceCount1 "The 7 bit occurence count field contains the number of times a fault has gone from active to previously active.";
+CM_ SG_ 2566834691 FailureModeIdentifier1 "The FMI defines the type of failure detected in the subsystem identified by an SPN.";
+CM_ SG_ 2566834691 SPN1 "SPN #1 (Conversion Version 4)";
+CM_ SG_ 2566834691 RedStopLampState "This lamp is uesed to relay trouble code information that is of a severe enought condition that it warrants stopping the vehicle.";
+CM_ SG_ 2566834691 ProtectLampStatus "This lamp is used to relay trouble code informatio that is reporting a problem with a vehicle system that is most 
+probably not electronic subsystem related.";
+CM_ SG_ 2566834691 SPN1High "SPN #1 (Conversion Version 4)";
+CM_ BO_ 2566831438 "Fan Drive Controller";
+CM_ SG_ 2566831438 FanSpeed "The speed of the fan associated with engine coolant system.";
+CM_ SG_ 2566831438 EstPercentFanSpeed "Estimated fan speed as a ratio of the fan drive (current speed) to the fully engaged fan drive (maximum fan speed).";
+BA_DEF_ BO_  "J1939PGSrc" INT 0 255;
+BA_DEF_ BO_  "J1939PGDest" INT 0 255;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ SG_  "SigType" STRING ;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_ BO_  "J1939PGPrio" INT 0 7;
+BA_DEF_ BO_  "SingleFrame" INT 0 1;
+BA_DEF_ BO_  "J1939PGRepetitionCycle" INT 0 1000000;
+BA_DEF_ BO_  "J1939PGRepetitionType" ENUM  "always","when active","on request";
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_  "SAE_J1939-75_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939-21_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939-73_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939-71_SpecVersion" STRING ;
+BA_DEF_  "J1939PGN" INT 0 1;
+BA_DEF_DEF_  "J1939PGSrc" 0;
+BA_DEF_DEF_  "J1939PGDest" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "SigType" "";
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "J1939PGPrio" 6;
+BA_DEF_DEF_  "SingleFrame" 1;
+BA_DEF_DEF_  "J1939PGRepetitionCycle" 0;
+BA_DEF_DEF_  "J1939PGRepetitionType" "on request";
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "SAE_J1939-75_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939-21_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939-73_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939-71_SpecVersion" "";
+BA_DEF_DEF_  "J1939PGN" 0;
+BA_ "BusType" "CAN";
+BA_ "NmJ1939Function" BU_ EngCU 0;
+BA_ "NmStationAddress" BU_ EngCU 0;
+BA_ "NmJ1939Function" BU_ RC40 3;
+BA_ "NmStationAddress" BU_ RC40 3;
+BA_ "NmJ1939FunctionInstance" BU_ Bservice 1;
+BA_ "NmJ1939Function" BU_ Bservice 129;
+BA_ "NmStationAddress" BU_ Bservice 250;
+BA_ "NmJ1939Function" BU_ FanDrvCU 0;
+BA_ "NmStationAddress" BU_ FanDrvCU 78;
+BA_ "SigType" SG_ 2566844675 WheelBasedVehicleSpeed "RANGE";
+BA_ "SPN" SG_ 2566844675 WheelBasedVehicleSpeed 84;
+BA_ "SigType" SG_ 2566844675 ParkingBrakeSwitch "DISCRETE";
+BA_ "SPN" SG_ 2566844675 ParkingBrakeSwitch 70;
+BA_ "SigType" SG_ 2565866496 EngSpeed "RANGE";
+BA_ "SPN" SG_ 2565866496 EngSpeed 190;
+BA_ "SigType" SG_ 2565866496 ActualEngPercentTorque "RANGE";
+BA_ "SPN" SG_ 2565866496 ActualEngPercentTorque 513;
+BA_ "SigType" SG_ 2566843904 EngCoolantTemp "RANGE";
+BA_ "SPN" SG_ 2566843904 EngCoolantTemp 110;
+BA_ "SigType" SG_ 2566843904 EngOilTemp1 "RANGE";
+BA_ "SPN" SG_ 2566843904 EngOilTemp1 175;
+BA_ "SPN" SG_ 2566834691 FlashEngineRedStopLamp 3039;
+BA_ "SPN" SG_ 2566834691 FlashEngineProtectLamp 3041;
+BA_ "SigType" SG_ 2566834691 FlashEngineMalfuncIndicatorLamp "DISCRETE";
+BA_ "SPN" SG_ 2566834691 FlashEngineMalfuncIndicatorLamp 3038;
+BA_ "SPN" SG_ 2566834691 FlashEngineAmberWarningLamp 3040;
+BA_ "SigType" SG_ 2566834691 MalfunctionIndicatorLampStatus "DISCRETE";
+BA_ "SPN" SG_ 2566834691 MalfunctionIndicatorLampStatus 1213;
+BA_ "SigType" SG_ 2566834691 AmberWarningLampStatus "DISCRETE";
+BA_ "SPN" SG_ 2566834691 AmberWarningLampStatus 624;
+BA_ "SigType" SG_ 2566834691 OccurenceCount1 "RANGE";
+BA_ "SPN" SG_ 2566834691 OccurenceCount1 1216;
+BA_ "SPN" SG_ 2566834691 SPNConversionMethod1 1706;
+BA_ "SPN" SG_ 2566834691 FailureModeIdentifier1 1215;
+BA_ "SPN" SG_ 2566834691 SPN1 1214;
+BA_ "SigType" SG_ 2566834691 RedStopLampState "DISCRETE";
+BA_ "SPN" SG_ 2566834691 RedStopLampState 623;
+BA_ "SigType" SG_ 2566834691 ProtectLampStatus "DISCRETE";
+BA_ "SPN" SG_ 2566834691 ProtectLampStatus 987;
+BA_ "SPN" SG_ 2566834691 SPN1High 1214;
+BA_ "SigType" SG_ 2566831438 FanSpeed "RANGE";
+BA_ "SPN" SG_ 2566831438 FanSpeed 1639;
+BA_ "SigType" SG_ 2566831438 EstPercentFanSpeed "RANGE";
+BA_ "SPN" SG_ 2566831438 EstPercentFanSpeed 975;
+VAL_ 2566844675 ParkingBrakeSwitch 1 "ParkingBrakeSet" 0 "ParkingBrakeNotSet" ;
+

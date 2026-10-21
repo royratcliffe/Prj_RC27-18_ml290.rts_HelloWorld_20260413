@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TdxProjectUpdateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Schema>1.00</Schema>
+    <TDXProjects>
+        <TDXProject ProjectID="392a682f-06fb-41eb-8b25-9b7ee48892f3" Name="HelloWorld_l290">
+            <TDXProjectFiles>
+                <TDXProjectFile Name="HelloWorld_l290_1.29.0.0.tdxp" Compatibility="8" Version="1.29.0.0" IsStandalone="true" />
+            </TDXProjectFiles>
+        </TDXProject>
+    </TDXProjects>
+</TdxProjectUpdateDefinition>
