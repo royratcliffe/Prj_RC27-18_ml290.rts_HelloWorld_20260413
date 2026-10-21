@@ -1,6 +1,0 @@
-{
-  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
-  "name" : "DIDManager",
-  "iocbiEnabled" : false,
-  "didInfos" : [ "DcmDspDidInfo_ProcessData_All", "DcmDspDidInfo_ProcessData_Extended", "DcmDspDidInfo_ProcessData_Safety", "DcmDspDidInfo_ProcessData_EOL", "DcmDspDidInfo_Parameter_All", "DcmDspDidInfo_Parameter_Extended", "DcmDspDidInfo_Parameter_Safety", "DcmDspDidInfo_Parameter_EOL", "DcmDspDidInfo_IOCBI_Parameter_Extended_OneSignal", "DcmDspDidInfo_IOCBI_Parameter_Extended_OneByteMask", "DcmDspDidInfo_IOCBI_Parameter_Extended_TwoByteMask", "DcmDspDidInfo_IOCBI_Parameter_Extended_ThreeByteMask", "DcmDspDidInfo_IOCBI_Parameter_Extended_FourByteMask", "DcmDspDidInfo_IOCBI_Parameter_Safety_OneSignal", "DcmDspDidInfo_IOCBI_Parameter_Safety_OneByteMask", "DcmDspDidInfo_IOCBI_Parameter_Safety_TwoByteMask", "DcmDspDidInfo_IOCBI_Parameter_Safety_ThreeByteMask", "DcmDspDidInfo_IOCBI_Parameter_Safety_FourByteMask", "DcmDspDidInfo_IOCBI_Parameter_EOL_OneSignal", "DcmDspDidInfo_IOCBI_Parameter_EOL_OneByteMask", "DcmDspDidInfo_IOCBI_Parameter_EOL_TwoByteMask", "DcmDspDidInfo_IOCBI_Parameter_EOL_ThreeByteMask", "DcmDspDidInfo_IOCBI_Parameter_EOL_FourByteMask" ]
-}

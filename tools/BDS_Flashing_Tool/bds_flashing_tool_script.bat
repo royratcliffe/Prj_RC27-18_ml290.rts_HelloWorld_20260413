@@ -1,1 +1,0 @@
-FlashingUtilities\bds_flashing_tool.exe config.ini
