@@ -1,0 +1,18 @@
+* text=auto
+
+*.dbc text eol=lf
+*.xml text eol=lf
+*.hex text eol=lf
+*.bxml text eol=lf
+*.bxmlmodel text eol=lf
+
+# CODESYS project files
+*.project binary
+
+# TDXP is a PKzip archive
+*.tdxp binary
+
+# DTC, DID imports as Excel files
+*.xlsx binary
+*.xlsm binary
+*.zip binary
