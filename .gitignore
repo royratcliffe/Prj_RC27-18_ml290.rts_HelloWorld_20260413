@@ -1,2 +1,2 @@
 # Ignore temporary Excel files
-~$.xlsm
+~$*.xlsm
