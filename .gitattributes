@@ -5,12 +5,22 @@
 *.hex text eol=lf
 *.bxml text eol=lf
 *.bxmlmodel text eol=lf
+*.a2l text eol=lf
+*.sig text eol=lf
 
-# CODESYS project files
+# CODESYS project and library files
 *.project binary
+*.library binary
+*.package binary
 
 # TDXP is a PKzip archive
 *.tdxp binary
+
+# Binary documents and tools
+*.chm binary
+*.dll binary
+*.exe binary
+*.pdf binary
 
 # DTC, DID imports as Excel files
 *.xlsx binary
