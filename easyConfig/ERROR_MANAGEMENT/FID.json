@@ -1,0 +1,19 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "fids" : [ {
+    "fidId" : "_Vz3Jkh9aEfC9KpiuxYDKuQ",
+    "name" : "Function_Id_1",
+    "description" : "Function identifier for Customer Faults",
+    "selectedDFCErrors" : [ ]
+  }, {
+    "fidId" : "_Vz3Jkx9aEfC9KpiuxYDKuQ",
+    "name" : "Function_Id_2",
+    "description" : "Function identifier for Customer Faults",
+    "selectedDFCErrors" : [ ]
+  }, {
+    "fidId" : "_Vz3JlB9aEfC9KpiuxYDKuQ",
+    "name" : "Function_Id_3",
+    "description" : "Function identifier for Customer Faults",
+    "selectedDFCErrors" : [ ]
+  } ]
+}

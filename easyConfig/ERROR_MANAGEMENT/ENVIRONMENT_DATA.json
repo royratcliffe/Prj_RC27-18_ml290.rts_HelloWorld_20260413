@@ -1,0 +1,30 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "initialPID" : "B5",
+  "edClasses" : [ {
+    "edClassId" : "_VzdgZR9aEfC9KpiuxYDKuQ",
+    "name" : "ED_Class1",
+    "selectedEDDidSignals" : [ "_VzdgZx9aEfC9KpiuxYDKuQ", "_VzdgaB9aEfC9KpiuxYDKuQ", "_VzdgaR9aEfC9KpiuxYDKuQ", "_Vzdgah9aEfC9KpiuxYDKuQ", "_Vzdgax9aEfC9KpiuxYDKuQ" ]
+  } ],
+  "edDidSignals" : [ {
+    "signalId" : "_VzdgZx9aEfC9KpiuxYDKuQ",
+    "name" : "bds_ED_Sig1",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "_VzdgaB9aEfC9KpiuxYDKuQ",
+    "name" : "bds_ED_Sig2",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "_VzdgaR9aEfC9KpiuxYDKuQ",
+    "name" : "bds_ED_Sig3",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "_Vzdgah9aEfC9KpiuxYDKuQ",
+    "name" : "bds_ED_Sig4",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "_Vzdgax9aEfC9KpiuxYDKuQ",
+    "name" : "bds_ED_Sig5",
+    "dataType" : "UINT16"
+  } ]
+}

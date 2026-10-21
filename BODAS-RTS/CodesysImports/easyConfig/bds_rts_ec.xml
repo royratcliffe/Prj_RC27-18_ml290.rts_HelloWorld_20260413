@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/***************************************************************************
+*                                                                              *
+*  FILENAME:    <>                                                             *
+*                                                                              *
+*  PROJECT:     <>                                                             *
+*                                                                              *
+* (c) Copyright by BOSCH REXROTH AG, all rights reserved                       *
+*                                                                              *
+ *******************************************************************************/-->
+<project xmlns="http://www.plcopen.org/xml/tc6_0200">
+  <fileHeader companyName="" productName="" productVersion="" creationDateTime="2026-04-10T12:42:14.376" />
+  <contentHeader name="" modificationDateTime="2026-04-10T12:42:14.376">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="1" y="1" />
+      </fbd>
+      <ld>
+        <scaling x="1" y="1" />
+      </ld>
+      <sfc>
+        <scaling x="1" y="1" />
+      </sfc>
+    </coordinateInfo>
+    <addData>
+      <data name="http://www.3s-software.com/plcopenxml/projectinformation" handleUnknown="implementation">
+        <ProjectInformation />
+      </data>
+    </addData>
+  </contentHeader>
+  <types>
+    <dataTypes>
+    	<dataType name="bds_snsrPr4_inst_te">
+			<baseType>
+          	 <enum> 
+    		  <values>
+   					<value name= "pSnsr_E" value="0" />
+  					<value name= "bds_snsrPr4_numInst_E" />
+           	   </values>
+            	<baseType>
+              	<USINT/>
+            	</baseType>
+          	</enum>
+          </baseType>
+          <addData>
+            <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+             <Attribute Name="qualified_only" Value=""/>
+             <Attribute Name="strict" Value=""/>
+            </Attributes>
+        	</data>
+			<data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+		 	<ObjectId>74711793-76df-46e0-9e87-d25c70a04872</ObjectId>
+			</data>
+          </addData>
+		</dataType>
+    	<dataType name="bds_snsrDst_inst_te">
+        	<baseType>
+    		 <enum> 
+    	      <values>
+				<value name="SpdSnsr_E" value="0" />
+			  <value name="bds_snsrDst_numInst_E" />
+              </values>
+            <baseType>
+              <USINT/>
+            </baseType>
+            </enum>
+            </baseType>
+          <addData>
+			<data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+			<Attributes>
+				<Attribute Name="qualified_only" Value=""/>
+				<Attribute Name="strict" Value=""/>
+			</Attributes>
+			</data>
+			<data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+				<ObjectId>870198ea-00af-4343-ab35-1ee4ff65ce32</ObjectId>
+			</data>
+		  </addData>
+		</dataType>
+		<dataType name="bds_snsrDsa_inst_te">
+            <baseType>
+             <enum>
+              <values>
+                    <value name="bds_snsrDsa_numInst_E" />
+              </values>
+               <baseType>
+               <USINT/>
+               </baseType>
+              </enum>
+             </baseType>
+             <addData>
+               <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+                <Attributes>
+                    <Attribute Name="qualified_only" Value=""/>
+                    <Attribute Name="strict" Value=""/>
+                </Attributes>
+                </data>
+                <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+                    <ObjectId>35af6891-6ffb-4820-ab75-758e771b0cc0</ObjectId>
+                </data>
+            </addData>
+        </dataType>
+        <dataType name="bds_snsrPal_inst_te">
+            <baseType>
+             <enum>
+              <values>
+                    <value name="bds_snsrPal_numInst_E" />
+              </values>
+               <baseType>
+               <USINT/>
+               </baseType>
+             </enum>
+            </baseType>
+            <addData>
+              <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+              <Attributes>
+                  <Attribute Name="qualified_only" Value=""/>
+                  <Attribute Name="strict" Value=""/>
+              </Attributes>
+              </data>
+              <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+                  <ObjectId>45e7faef-5ef2-4a72-bc84-e9e72d482086</ObjectId>
+              </data>
+            </addData>
+        </dataType>
+		<!--/bds_in_aiv_signal_te/-->
+		<dataType name="bds_in_aiv_signal_te">
+        <baseType>
+         <enum>
+          <values>
+              <value name="IN_AIV_START_SIGNALS" value ="16#500"/>
+              <value name="IN_AIV_START" value ="16#4FF"/>
+               <value name="K52"/>
+               <value name="K60"/>
+               <value name="K43"/>
+               <value name="K54"/>
+               <value name="K55"/>
+               <value name="K39"/>
+               <value name="K38"/>
+               <value name="K40"/>
+               <value name="K42"/>
+               <value name="K37"/>
+               <value name="K61"/>
+               <value name="K45"/>
+               <value name="K44"/>
+               <value name="A21"/>
+               <value name="A36"/>
+               <value name="A37"/>
+               <value name="A38"/>
+               <value name="A39"/>
+               <value name="K30"/>
+               <value name="A43"/>
+               <value name="A22"/>
+               <value name="A23"/>
+               <value name="A24"/>
+               <value name="K78"/>
+               <value name="K76"/>
+               <value name="K74"/>
+               <value name="K77"/>
+               <value name="K10"/>
+               <value name="K75"/>
+               <value name="K31"/>
+               <value name="K34"/>
+               <value name="A13"/>
+               <value name="A40"/>
+               <value name="A41"/>
+               <value name="A42"/>
+               <value name="A25"/>
+               <value name="A26"/>
+               <value name="A27"/>
+               <value name="A14"/>
+               <value name="A57"/>
+               <value name="A28"/>
+               <value name="A29"/>
+               <value name="K11"/>
+               <value name="K35"/>
+               <value name="IN_AIV_NUM_SIGNALS"/>
+               <value name="IN_AIV_FLEXIN_NUM_SIGNALS" value="K78"/>
+            </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>5f185c00-17bc-445b-8d50-4e1f7ad1b040</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_out_aov_signal_te/-->
+	  <dataType name="bds_out_aov_signal_te">
+        <baseType>
+          <enum>
+           <values>
+             <value name="OUT_AOV_START_SIGNALS" value ="16#300"/>
+             <value name="OUT_AOV_START" value ="16#2FF"/>
+             <value name="K25"/>
+             <value name="A12"/>
+             <value name="K62"/>
+             <value name="OUT_AOV_NUM_SIGNALS"/>
+             <value name="OUT_AOV_PVG_NUM_SIGNALS" value="K62"/>
+           </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>542c47a9-1aad-4a5e-be9f-8d533202c780</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_outClcU_signal_te/-->
+	  <dataType name="bds_outClcU_signal_te">
+        <baseType>
+          <enum>
+           <values>
+			 <value name="bds_outClcU_K25_E" value= "0" />
+			 <value name="bds_outClcU_A12_E" />
+			  <value name="bds_outClcU_K62_E" />
+			  <value name="bds_outClcU_numSignal_E"/>
+           </values>
+            <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>625fad57-0e03-43e1-8ef5-6b9c5eb8c536</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_sys_ait_signal_te/-->
+	  <dataType name="bds_sys_ait_signal_te">
+        <baseType>
+         <enum>
+          <values>
+           <value name="SYS_AIT_START_SIGNALS" value ="16#900"/>
+           <value name="SYS_AIT_START" value ="16#8FF"/>
+           <value name="TSGI1"/>
+           <value name="TSGI2"/>
+           <value name="SYS_AIT_NUM_SIGNALS"/>
+          </values>
+        <baseType>
+            <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>d1a9a93d-6fbc-4be1-9286-4ff356e7f7f0</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_in_di_signal_te/-->
+	  <dataType name="bds_in_di_signal_te">
+        <baseType>
+         <enum>
+          <values>
+           <value name="IN_DI_START_SIGNALS" value ="16#400"/>
+           <value name="IN_DI_START" value ="16#3FF"/>
+           <value name="K22"/>
+           <value name="K21"/>
+           <value name="IN_DI_NUM_SIGNALS"/>
+            </values>
+          <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>a8949006-mak1-4835-81d4-561e65b9aaf1</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_in_ri_signal_te/-->
+      <dataType name="bds_in_ri_signal_te">
+        <baseType>
+         <enum>
+        <values>
+               <value name="IN_RI_START_SIGNALS" value ="16#600"/>
+               <value name="IN_RI_START" value ="16#5FF"/>
+               <value name="K41"/>
+               <value name="K65"/>
+               <value name="K63"/>
+               <value name="K64"/>
+               <value name="K32"/>
+               <value name="K33"/>
+                <value name="IN_RI_NUM_SIGNALS"/>
+            </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>f67df122-6d70-4c3a-ac56-545498077e0d</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_in_fi_signal_te/-->
+      <dataType name="bds_in_fi_signal_te">
+        <baseType>
+         <enum>
+          <values>
+                <value name="IN_FI_START_SIGNALS" value ="16#700"/>
+                <value name="IN_FI_START" value ="16#6FF"/>
+				<value name="K39_VI"/>
+				<value name="K38_VI"/>
+				<value name="K40_VI"/>
+				<value name="K41_VI"/>
+				<value name="K42_VI"/>
+				<value name="K45_VI"/>
+				<value name="K44_VI"/>
+				<value name="K65_VI"/>
+				<value name="K63_VI"/>
+				<value name="K64_VI"/>
+				<value name="A36_VI"/>
+				<value name="A37_VI"/>
+				<value name="A38_VI"/>
+				<value name="A39_VI"/>
+                <value name="K54_VI"/>
+                <value name="K37_VI"/>
+                <value name="K30_VI"/>
+                <value name="A43_VI"/>
+                <value name="IN_FI_NUM_SIGNALS"/>
+               <value name="IN_FI_DSM_NUM_SIGNALS" value="IN_FI_NUM_SIGNALS"/>
+            </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>623f5a66-1c47-45e4-adc7-448331696bfc</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_in_sent_signal_te/-->
+       <dataType name="bds_in_sent_signal_te">
+        <baseType>
+         <enum>
+        <values>
+            <value name="IN_SENT_START_SIGNALS" value ="16#800"/>
+            <value name="IN_SENT_START" value ="16#7FF"/>
+            <value name="K53"/>
+            <value name="K59"/>
+            <value name="K57"/>
+            <value name="K58"/>
+            <value name="K36"/>
+            <value name="K56"/>
+            <value name="IN_SENT_NUM_SIGNALS"/>
+           </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>295152f4-dffa-498f-913a-a261ba36f9a3</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/bds_in_phase_signal_te/-->
+      <dataType name="bds_in_phase_signal_te">
+        <baseType>
+         <enum>
+	  <values>
+            <value name="IN_PHASE_START_SIGNALS" value ="16#900"/>
+            <value name="IN_PHASE_START" value ="16#8FF"/>
+            <value name ="K55_VI_K61_VI"/>
+            <value name="IN_PHASE_NUM_SIGNALS"/>
+           </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>ec218b25-cca0-47ea-848e-2189493d7ea1</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+      <dataType name="bds_out_do_signal_te">
+        <baseType>
+          <enum>
+          <values>
+           <value name="OUT_DO_START_SIGNALS" value ="16#100"/>
+           <value name="OUT_DO_START" value ="16#FF"/>
+           <value name="K13"/>
+           <value name="A04"/>
+           <value name="A10"/>
+           <value name="A56"/>
+           <value name="A11"/>
+           <value name="A55"/>
+           <value name="A01"/>
+           <value name="A06"/>
+           <value name="A16"/>
+           <value name="A58"/>
+           <value name="A49"/>
+           <value name="A50"/>
+           <value name="K84"/>
+           <value name="K85"/>
+           <value name="K86"/>
+           <value name="K87"/>
+            <value name="OUT_DO_NUM_SIGNALS"/>  
+            <value name="OUT_DO_FSC_NUM_SIGNALS" value="K84"/>
+            </values>
+           <baseType>
+              <UINT/>
+            </baseType>
+         </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>6d6de164-a735-4fbc-9965-c5086ce9669c</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+       <dataType name="bds_out_po_signal_te">
+        <baseType>
+          <enum>
+            <values>
+              <value name="OUT_PO_START_SIGNALS" value ="16#200"/>
+              <value name="OUT_PO_START" value ="16#1FF"/>
+              <value name="K07"/>
+              <value name="K09"/>
+              <value name="K73"/>
+              <value name="K08"/>
+              <value name="K29"/>
+              <value name="K17"/>
+              <value name="A32"/>
+              <value name="A47"/>
+              <value name="A31"/>
+              <value name="A48"/>
+              <value name="A46"/>
+              <value name="A33"/>
+              <value name="A34"/>
+              <value name="A51"/>
+              <value name="A35"/>
+              <value name="A53"/>
+              <value name="A52"/>
+              <value name="A54"/>
+              <value name="K16"/>
+              <value name="K14"/>
+              <value name="K15"/>
+              <value name="A19"/>
+              <value name="A05"/>
+              <value name="A20"/>
+              <value name="A09"/>
+              <value name="A02"/>
+              <value name="A17"/>
+              <value name="K51"/>
+              <value name="K12"/>
+              <value name="A03"/>
+              <value name="A18"/>
+              <value name="A08"/>
+              <value name="A07"/>
+              <value name="K80"/>
+              <value name="K81"/>
+              <value name="K82"/>
+              <value name="K83"/>
+              <value name="OUT_PO_NUM_SIGNALS"/>
+              <value name="OUT_PO_FSC_NUM_SIGNALS" value="K80" />
+              <value name="OUT_PO_FSC_HS_NUM_SIGNALS" value="K16" />
+              </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>a848742b-bee1-4bcd-8748-14fec0a6d215</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+      <!--/bds_outDig_signal_te/-->
+      <dataType name="bds_outDig_signal_te">
+        <baseType>
+          <enum>
+            <values>
+			<value name="bds_outDig_K13_E" value = "0" />
+			<value name="bds_outDig_A04_E" />
+			<value name="bds_outDig_A10_E" />
+			<value name="bds_outDig_A56_E" />
+			<value name="bds_outDig_A11_E" />
+			<value name="bds_outDig_A55_E" />
+			<value name="bds_outDig_A01_E" />
+			<value name="bds_outDig_A06_E" />
+			<value name="bds_outDig_A16_E" />
+			<value name="bds_outDig_A58_E" />
+			<value name="bds_outDig_A49_E" />
+			<value name="bds_outDig_A50_E" />
+			<value name="bds_outDig_K84_E" />
+			<value name="bds_outDig_K85_E" />
+			<value name="bds_outDig_K86_E" />
+			<value name="bds_outDig_K87_E" />
+			<value name="bds_outDig_K07_E" />
+			<value name="bds_outDig_K09_E" />
+			<value name="bds_outDig_K73_E" />
+			<value name="bds_outDig_K08_E" />
+			<value name="bds_outDig_K29_E" />
+			<value name="bds_outDig_K17_E" />
+			<value name="bds_outDig_A32_E" />
+			<value name="bds_outDig_A47_E" />
+			<value name="bds_outDig_A31_E" />
+			<value name="bds_outDig_A48_E" />
+			<value name="bds_outDig_A46_E" />
+			<value name="bds_outDig_A33_E" />
+			<value name="bds_outDig_A34_E" />
+			<value name="bds_outDig_A51_E" />
+			<value name="bds_outDig_A35_E" />
+			<value name="bds_outDig_A53_E" />
+			<value name="bds_outDig_A52_E" />
+			<value name="bds_outDig_A54_E" />
+			<value name="bds_outDig_K16_E" />
+			<value name="bds_outDig_K14_E" />
+			<value name="bds_outDig_K15_E" />
+			<value name="bds_outDig_A19_E" />
+			<value name="bds_outDig_A05_E" />
+			<value name="bds_outDig_A20_E" />
+			<value name="bds_outDig_A09_E" />
+			<value name="bds_outDig_A02_E" />
+			<value name="bds_outDig_A17_E" />
+			<value name="bds_outDig_K51_E" />
+			<value name="bds_outDig_K12_E" />
+			<value name="bds_outDig_A03_E" />
+			<value name="bds_outDig_A18_E" />
+			<value name="bds_outDig_A08_E" />
+			<value name="bds_outDig_A07_E" />
+			<value name="bds_outDig_K80_E" />
+			<value name="bds_outDig_K81_E" />
+			<value name="bds_outDig_K82_E" />
+			<value name="bds_outDig_K83_E" />
+			<value name="bds_outDig_numSignal_E" />
+            </values>
+            <baseType>
+              <USINT />
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="external_name" Value="cmp_rts_bds_outDig_signal_te" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>09240e9d-6f5f-426f-91eb-7db3184b1cd1</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+      <!--/bds_outPwm_signal_te/-->
+      <dataType name="bds_outPwm_signal_te">
+        <baseType>
+          <enum>
+            <values>
+			<value name="bds_outPwm_K07_E" value = "0" />
+			<value name="bds_outPwm_K09_E" />
+			<value name="bds_outPwm_K73_E" />
+			<value name="bds_outPwm_K08_E" />
+			<value name="bds_outPwm_K29_E" />
+			<value name="bds_outPwm_K17_E" />
+			<value name="bds_outPwm_A32_E" />
+			<value name="bds_outPwm_A47_E" />
+			<value name="bds_outPwm_A31_E" />
+			<value name="bds_outPwm_A48_E" />
+			<value name="bds_outPwm_A46_E" />
+			<value name="bds_outPwm_A33_E" />
+			<value name="bds_outPwm_A34_E" />
+			<value name="bds_outPwm_A51_E" />
+			<value name="bds_outPwm_A35_E" />
+			<value name="bds_outPwm_A53_E" />
+			<value name="bds_outPwm_A52_E" />
+			<value name="bds_outPwm_A54_E" />
+			<value name="bds_outPwm_K16_E" />
+			<value name="bds_outPwm_K14_E" />
+			<value name="bds_outPwm_K15_E" />
+			<value name="bds_outPwm_A19_E" />
+			<value name="bds_outPwm_A05_E" />
+			<value name="bds_outPwm_A20_E" />
+			<value name="bds_outPwm_A09_E" />
+			<value name="bds_outPwm_A02_E" />
+			<value name="bds_outPwm_A17_E" />
+			<value name="bds_outPwm_K51_E" />
+			<value name="bds_outPwm_K12_E" />
+			<value name="bds_outPwm_A03_E" />
+			<value name="bds_outPwm_A18_E" />
+			<value name="bds_outPwm_A08_E" />
+			<value name="bds_outPwm_A07_E" />
+			<value name="bds_outPwm_K80_E" />
+			<value name="bds_outPwm_K81_E" />
+			<value name="bds_outPwm_K82_E" />
+			<value name="bds_outPwm_K83_E" />
+			<value name="bds_outPwm_numSignal_E" />
+            </values>
+            <baseType>
+              <USINT />
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="external_name" Value="cmp_rts_bds_outPwm_signal_te" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>2837f36f-ea3d-4b19-b9ea-549c75b353d8</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+       <dataType name="bds_sys_aiv_signal_te">
+        <baseType>
+         <enum>
+         <values>
+            <value name="SYS_AIV_START_SIGNALS" value ="16#A00"/>
+            <value name="SYS_AIV_START" value ="16#9FF"/>
+            <value name="UBAT_MON"/>
+            <value name="UBRM24_MON"/>
+            <value name="VDD5A_MON"/>
+            <value name="UBR24_VP"/>
+            <value name="UBRM24_LOADS"/>
+            <value name="VDD3V3"/>
+            <value name="VPR6"/>
+            <value name="VDD5V_IN"/>
+            <value name="VDD5_S3530"/>
+            <value name="VSS3V5"/>
+            <value name="VSS4V10"/>
+            <value name="LSS_MEAS_CL13"/>
+			<value name="LSS_MEAS_CL2"/>
+            <value name="SYS_AIV_NUM_SIGNALS"/>
+           </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>357239a9-8cf4-4777-99f8-1295cc179d42</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--bds_sys_do_signal_te-->
+      <dataType name="bds_sys_do_signal_te">
+        <baseType>
+         <enum>
+           <values>
+			<value name="SYS_DO_START_SIGNALS" value ="16#B00"/>
+			<value name="SYS_DO_START" value ="16#AFF"/>
+			<value name="SHUNT_AIC_K39_EN"/>
+            <value name="SHUNT_AIC_K38_EN"/>
+            <value name="SHUNT_AIC_K40_EN"/>
+            <value name="SHUNT_AIC_K41_EN"/>
+            <value name="SHUNT_AIC_K42_EN"/>
+            <value name="SHUNT_AIC_K45_EN"/>
+            <value name="SHUNT_AIC_K44_EN"/>
+            <value name="SHUNT_AIC_K65_EN"/>
+            <value name="SHUNT_AIC_K63_EN"/>
+            <value name="SHUNT_AIC_K64_EN"/>
+            <value name="SHUNT_AIC_A36_EN"/>
+            <value name="SHUNT_AIC_A37_EN"/>
+            <value name="SHUNT_AIC_A38_EN"/>
+            <value name="SHUNT_AIC_A39_EN"/>
+			<value name="SHUNT1_EN"/>
+			<value name="SHUNT3_EN"/>
+			<value name="SHUNT5_EN"/>
+			<value name="SHUNT6_EN"/>
+			<value name="SYS_DO_NUM_SIGNALS"/>
+           </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>10b36081-773f-4b11-b1bd-1f3f0e37a431</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+      <dataType name="bds_sys_vss_signal_te">
+        <baseType>
+         <enum>
+            <values>
+             <value name="SYS_VSS_START_SIGNALS" value ="16#C00"/>
+             <value name="SYS_VSS_START" value ="16#BFF"/>
+             <value name="VSS1"/>
+             <value name="VSS2"/>
+             <value name="VSS3"/>
+             <value name="VSS4"/>
+             <value name="SYS_VSS_NUM_SIGNALS"/>
+             <value name="SYS_VSS_CY_NUM_SIGNALS" value="VSS3"/>
+            </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>da674a57-5d40-4495-b63b-a274018e128a</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+      <dataType name="bds_sys_di_signal_te">
+        <baseType>
+         <enum>
+           <values>
+              <value name="SYS_DI_START_SIGNALS" value ="16#D00"/>
+              <value name="SYS_DI_START" value ="16#CFF"/>
+              <value name="ST_INH"/>
+              <value name="SYS_DI_NUM_SIGNALS"/>
+           </values>
+            <baseType>
+              <UINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>8ee493b7-c54e-41b5-9f18-b0f7e4b56880</ObjectId>
+          </data>
+        </addData>
+      </dataType>
+	  <!--/PBS Configs/-->
+	  <dataType name="bds_snsrPr4_inst_te">
+	 <baseType>
+       <enum> 
+    	 <values>
+   			 <value name= "pSnsr_E" value="0" />
+  			 <value name= "bds_snsrPr4_numInst_E" />
+         </values>
+        <baseType>
+         <USINT/>
+           </baseType>
+       </enum>
+     </baseType>
+     <addData>
+       <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+        <Attributes>
+         <Attribute Name="qualified_only" Value=""/>
+         <Attribute Name="strict" Value=""/>
+         </Attributes>
+        </data>
+		<data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+		 <ObjectId>74711793-76df-46e0-9e87-d25c70a04872</ObjectId>
+		</data>
+     </addData>
+	</dataType>
+    <dataType name="bds_snsrDst_inst_te">
+      <baseType>
+    	<enum> 
+    	  <values>
+			 <value name="SpdSnsr_E" value="0" />
+			 <value name="bds_snsrDst_numInst_E" />
+          </values>
+          <baseType>
+          <USINT/>
+          </baseType>
+        </enum>
+      </baseType>
+       <addData>
+		<data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+		<Attributes>
+			<Attribute Name="qualified_only" Value=""/>
+		    <Attribute Name="strict" Value=""/>
+		</Attributes>
+		</data>
+		<data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+			<ObjectId>870198ea-00af-4343-ab35-1ee4ff65ce32</ObjectId>
+		</data>
+		</addData>
+	</dataType>
+	<dataType name="bds_snsrDsa_inst_te">
+      <baseType>
+        <enum>
+          <values>
+          	   <value name= "bds_snsrDsa_numInst_E" value="0" />
+          </values>
+            <baseType>
+            <USINT/>
+            </baseType>
+        </enum>
+      </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+          <Attributes>
+              <Attribute Name="qualified_only" Value=""/>
+              <Attribute Name="strict" Value=""/>
+          </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+        	  <ObjectId>35af6891-6ffb-4820-ab75-758e771b0cc0</ObjectId>
+          </data>
+          </addData>
+    </dataType>
+    <dataType name="bds_snsrPal_inst_te">
+      <baseType>
+        <enum>
+          <values>
+               <value name= "bds_snsrPal_numInst_E" value="0" />
+          </values>
+            <baseType>
+            <USINT/>
+            </baseType>
+        </enum>
+      </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+          <Attributes>
+              <Attribute Name="qualified_only" Value=""/>
+              <Attribute Name="strict" Value=""/>
+          </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+              <ObjectId>45e7faef-5ef2-4a72-bc84-e9e72d482086</ObjectId>
+          </data>
+        </addData>
+    </dataType>
+
+	  <!--/bds_inU_signal_te/-->
+	  <dataType name="bds_inU_signal_te">
+        <baseType>
+         <enum>
+          <values>
+				<value name="bds_inU_K52_E" value = "0"/>
+				<value name="bds_inU_K60_E"/>
+				<value name="bds_inU_K43_E"/>
+				<value name="bds_inU_K54_E"/>
+				<value name="bds_inU_K55_E"/>
+				<value name="bds_inU_K39_E"/>
+				<value name="bds_inU_K38_E"/>
+				<value name="bds_inU_K40_E"/>
+				<value name="bds_inU_K42_E"/>
+				<value name="bds_inU_K37_E"/>
+				<value name="bds_inU_K61_E"/>
+				<value name="bds_inU_K45_E"/>
+				<value name="bds_inU_K44_E"/>
+				<value name="bds_inU_A21_E"/>
+				<value name="bds_inU_A36_E"/>
+				<value name="bds_inU_A37_E"/>
+				<value name="bds_inU_A38_E"/>
+				<value name="bds_inU_A39_E"/>
+				<value name="bds_inU_K30_E"/>
+				<value name="bds_inU_A43_E"/>
+				<value name="bds_inU_A22_E"/>
+				<value name="bds_inU_A23_E"/>
+				<value name="bds_inU_A24_E"/>
+				<value name="bds_inU_K78_E"/>
+				<value name="bds_inU_K76_E"/>
+				<value name="bds_inU_K74_E"/>
+				<value name="bds_inU_K77_E"/>
+				<value name="bds_inU_K10_E"/>
+				<value name="bds_inU_K75_E"/>
+				<value name="bds_inU_K31_E"/>
+				<value name="bds_inU_K34_E"/>
+				<value name="bds_inU_A13_E"/>
+				<value name="bds_inU_A40_E"/>
+				<value name="bds_inU_A41_E"/>
+				<value name="bds_inU_A42_E"/>
+				<value name="bds_inU_A25_E"/>
+				<value name="bds_inU_A26_E"/>
+				<value name="bds_inU_A27_E"/>
+				<value name="bds_inU_A14_E"/>
+				<value name="bds_inU_A57_E"/>
+				<value name="bds_inU_A28_E"/>
+				<value name="bds_inU_A29_E"/>
+				<value name="bds_inU_K11_E"/>
+				<value name="bds_inU_K35_E"/>
+				<value name="bds_inU_A59_E"/>
+               <value name="bds_inU_numSignal_E"/>
+            </values>
+            <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>21869b54-baa0-4247-b1c1-edecb4eb8766</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">Definition of  input Configured Signals for Voltage( Consists signals of all variants)</xhtml>
+		</documentation>
+      </dataType>
+	  <!--/bds_inDig_signal_te/-->
+      <dataType name="bds_inDig_signal_te">
+        <baseType>
+         <enum>
+          <values>
+			  <value name="bds_inDig_K22_E" value = "0"/>
+			  <value name="bds_inDig_K21_E"/>
+			  <value name="bds_inDig_numSignal_E"/>
+            </values>
+          <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+		  <data name="http://www.3s-software.com/plcopenxml/enumvaluedocumentation" handleUnknown="implementation">
+		    <EnumValueDocumentation>
+			   <EnumValue>
+                <Name>bds_inDig_K21_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">End V1</xhtml>
+                </Documentation>
+               </EnumValue>
+			</EnumValueDocumentation>
+		  </data>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>72fc2f1b-736d-495d-996d-536f34aacba9</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">BODAS configuration of available digital input signals</xhtml>
+		</documentation>
+      </dataType>
+	  <!--/bds_inR_signal_te/-->
+	  <dataType name="bds_inR_signal_te">
+		<baseType>
+         <enum>
+        <values>
+			  <value name="bds_inR_K41_E" value = "0"/>
+			  <value name="bds_inR_K65_E"/>
+			  <value name="bds_inR_K63_E"/>
+			  <value name="bds_inR_K64_E"/>
+			  <value name="bds_inR_K32_E"/>
+			  <value name="bds_inR_K33_E"/>
+			  <value name="bds_inR_numSignal_E"/>
+            </values>
+            <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>1cdbde51-9b7f-449d-9246-35687873eb21</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">Definition of input signals for Resistance</xhtml>
+		</documentation>
+      </dataType>
+	  <!--/bds_sent_signal_te/-->
+	  <dataType name="bds_sent_signal_te">
+        <baseType>
+         <enum>
+          <values>
+			<value name="bds_sent_K53_E" value = "0"/>
+			<value name="bds_sent_K59_E"/>
+			<value name="bds_sent_K57_E"/>
+			<value name="bds_sent_K58_E"/>
+			<value name="bds_sent_K36_E"/>
+			<value name="bds_sent_K56_E"/>
+			<value name="bds_sent_numSignal_E"/>
+            </values>
+            <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+		  <data name="http://www.3s-software.com/plcopenxml/enumvaluedocumentation" handleUnknown="implementation">
+		    <EnumValueDocumentation>
+			   <EnumValue>
+                <Name>bds_sent_K53_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">X_X_X03</xhtml>
+                </Documentation>
+               </EnumValue>
+			   <EnumValue>
+                <Name>bds_sent_K59_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">X_X_X04</xhtml>
+                </Documentation>
+               </EnumValue>
+			   <EnumValue>
+                <Name>bds_sent_K57_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">X_X_X16</xhtml>
+                </Documentation>
+               </EnumValue>
+			   <EnumValue>
+                <Name>bds_sent_K58_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">X_X_X17</xhtml>
+                </Documentation>
+               </EnumValue>
+			   <EnumValue>
+                <Name>bds_sent_K36_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">X_X_X18</xhtml>
+                </Documentation>
+               </EnumValue>
+			   <EnumValue>
+                <Name>bds_sent_K56_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">X_X_X19</xhtml>
+                </Documentation>
+               </EnumValue>
+			</EnumValueDocumentation>
+		  </data>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>b86c2583-67ed-441f-bb40-818115c80590</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">Definition configuration of available SENT signals (consists signals of all variants)</xhtml>
+		</documentation>
+      </dataType>
+	  <!--/bds_inPwm_signal_te/-->
+	  <dataType name="bds_inPwm_signal_te">
+        <baseType>
+         <enum>
+        <values>
+			  <value name="bds_inPwm_K54_E" value = "0"/>
+			  <value name="bds_inPwm_K37_E"/>
+			  <value name="bds_inPwm_K30_E"/>
+			  <value name="bds_inPwm_A43_E"/>
+			  <value name="bds_inPwm_A59_A44_E"/>
+			  <value name="bds_inPwm_numSignal_E"/>
+            </values>
+            <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>d0f3738f-847c-4144-9893-644263c4e85d</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">Definition of input signals for PWM</xhtml>
+		</documentation>
+      </dataType>
+      <dataType name="bds_inPha_signal_te">
+        <baseType>
+          <enum>
+           <values>
+            <value name="bds_inPha_K55_K61_E" value = "0"/>
+            <value name="bds_inPha_numSignal_E"/>
+           </values>
+            <baseType>
+            <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+           <addData>
+             <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+               <Attributes>
+                  <Attribute Name="external_name" Value="cmp_rts_bds_inPha_signal_te" />
+               </Attributes>
+             </data>
+             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+               <ObjectId>c89a7141-a04c-4a02-8dcc-241e21bef9a6</ObjectId>
+             </data>
+           </addData>
+      </dataType>
+	  <!--/bds_inI_signal_te/-->
+	  <dataType name="bds_inI_signal_te">
+        <baseType>
+         <enum>
+          <values>
+			  <value name="bds_inI_A38_E" value = "0"/>
+			  <value name="bds_inI_A39_E"/>
+			  <value name="bds_inI_K37_E"/>
+			  <value name="bds_inI_K30_E"/>
+			  <value name="bds_inI_A43_E"/>
+			 <value name="bds_inI_numSignal_E" />
+            </values>
+          <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+		  <data name="http://www.3s-software.com/plcopenxml/enumvaluedocumentation" handleUnknown="implementation">
+		    <EnumValueDocumentation>
+			   <EnumValue>
+                <Name>bds_inI_A43_E</Name>
+                <Documentation>
+                  <xhtml xmlns="http://www.w3.org/1999/xhtml">End V1</xhtml>
+                </Documentation>
+               </EnumValue>
+			</EnumValueDocumentation>
+		  </data>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>80721aaa-f5f3-44c6-8055-df87f9901d34</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">BODAS configuration of available current measurement input signals</xhtml>
+		</documentation>
+      </dataType>
+	  <!--/bds_sysPb_vrnt_te/-->
+	  <dataType name="bds_sysPb_vrnt_te">
+        <baseType>
+         <enum>
+          <values>
+		   <value name="bds_sysPb_vrnt01_E " value = "0"/>
+		   <value name="bds_sysPb_maxNumVrnt_E" />
+          </values>
+          <baseType>
+              <USINT/>
+            </baseType>
+          </enum>
+        </baseType>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+              <Attribute Name="strict" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>23f5a7e3-410a-4df0-81c9-c6ba97d9779f</ObjectId>
+          </data>
+        </addData>
+		<documentation>
+		  <xhtml xmlns="http://www.w3.org/1999/xhtml">post build system variants information</xhtml>
+		</documentation>
+      </dataType>
+    </dataTypes>
+    <pous />
+  </types>
+  <instances>
+    <configurations />
+  </instances>
+  <addData>
+  <data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="bds_sysIo_ec_gvl" constant="true">
+        <variable name="BDS_SYSIO_FI_SHUNT_NUM_SIGNALS_D">
+          <type>
+            <UINT />
+          </type>
+          <initialValue>
+			<simpleValue value="bds_sys_do_signal_te.SHUNT1_EN" />
+          </initialValue>
+        </variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>52e31d39-d995-46f0-b71a-7a85c422fae9</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+  <data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="bds_in_legacy_ec_gvl" constant="true">
+        <variable name="ACTIVATE_SHUNT_AIC_K39">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K38">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K40">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K41">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K42">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K45">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K44">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K65">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K63">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_K64">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_A36">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_A37">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_A38">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT_AIC_A39">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT1">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT2">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT3">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT4">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT5">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+        <variable name="ACTIVATE_SHUNT6">
+          <type>
+            <UDINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+		<variable name="BDS_IN_AIV_32V_NUM_SIGNALS_D">
+          <type>
+            <UINT/>
+          </type>
+          <initialValue>
+            <simpleValue value="bds_in_aiv_signal_te.A14" />
+          </initialValue>
+        </variable>
+		<variable name="BDS_IN_FI_AIC_NUM_SIGNALS_D">
+          <type>
+            <UINT/>
+          </type>
+          <initialValue>
+            <simpleValue value="bds_in_fi_signal_te.K54_VI" />
+          </initialValue>
+        </variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>371227a1-e712-4665-b115-f546383ef69a</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+    <data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="bds_out_ec_gvl" constant="true">
+        <variable name="RECONF_X_X_X25">
+		  <type>
+            <UDINT />
+          </type>
+		  <initialValue>
+            <simpleValue value="0" />
+		  </initialValue>
+        </variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>61867e23-c616-45e7-bc7a-3cd855d9405e</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+	<!--/BDS_inCmn_postVariants_DU8/-->
+	<data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="bds_in_ec_gvl" constant="true">
+        <variable name="BDS_inCmn_postVariants_DU8">
+          <type>
+            <USINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>a8949006-e023-4835-81d4-561e65b9aaf1</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+	<!--/bds_sent_postVariants_du8/-->
+	<data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="bds_sent_ec_gvl" constant="true">
+        <variable name="bds_sent_postVariants_du8">
+          <type>
+            <USINT />
+          </type>
+          <initialValue>
+            <simpleValue value="1"/>
+          </initialValue>
+        </variable>
+		<variable name="bds_sent_maxDataNibbles_du8">
+          <type>
+            <USINT />
+          </type>
+          <initialValue>
+            <simpleValue value="6" />
+          </initialValue>
+        </variable>
+		<variable name="bds_sent_rxFastDataBufSize_du8">
+          <type>
+            <USINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+        </variable>
+		<variable name="bds_sent_rxSlowDataBufSize_du8">
+          <type>
+            <USINT />
+          </type>
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+        </variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>b927cb5c-f83e-41a8-97fe-86f272138291</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+	<data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="bds_sysPb_ec_gvl" constant="true">		
+		<variable name="ml290rts_bs_HelloWorld">
+          <type>
+            <USINT />
+          </type>
+          <initialValue>
+		   <simpleValue value="bds_sysPb_vrnt_te.bds_sysPb_vrnt01_E" />
+		  </initialValue>
+		</variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
+            <Attributes>
+              <Attribute Name="qualified_only" Value="" />
+            </Attributes>
+          </data>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>7de27a17-5d41-47d9-99aa-0f2f28b367c9</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+    <data name="http://www.3s-software.com/plcopenxml/projectstructure" handleUnknown="discard">
+      <ProjectStructure>
+        <Folder Name="easyConfig_import">
+          <Folder Name="BDL">
+			<Object Name="bds_snsrPr4_inst_te" ObjectId="74711793-76df-46e0-9e87-d25c70a04872"/>
+			<Object Name="bds_snsrDst_inst_te" ObjectId="870198ea-00af-4343-ab35-1ee4ff65ce32"/>
+			<Object Name="bds_snsrDsa_inst_te" ObjectId="35af6891-6ffb-4820-ab75-758e771b0cc0"/>
+            <Object Name="bds_snsrPal_inst_te" ObjectId="45e7faef-5ef2-4a72-bc84-e9e72d482086"/>
+		  </Folder>
+          <Folder Name="bds_in_legacy_ec">
+            <Object Name="bds_in_aiv_signal_te" ObjectId="5f185c00-17bc-445b-8d50-4e1f7ad1b040" />
+            <Object Name="bds_in_fi_signal_te" ObjectId="623f5a66-1c47-45e4-adc7-448331696bfc" />
+            <Object Name="bds_in_phase_signal_te" ObjectId="ec218b25-cca0-47ea-848e-2189493d7ea1" />
+            <Object Name="bds_in_ri_signal_te" ObjectId="f67df122-6d70-4c3a-ac56-545498077e0d" />
+            <Object Name="bds_in_sent_signal_te" ObjectId="295152f4-dffa-498f-913a-a261ba36f9a3" />
+            <Object Name="bds_in_legacy_ec_gvl" ObjectId="371227a1-e712-4665-b115-f546383ef69a" />
+			<Object Name="bds_in_di_signal_te" ObjectId="a8949006-mak1-4835-81d4-561e65b9aaf1"/>
+          </Folder>
+          <Folder Name="bds_in_ec">
+            <Object Name="bds_in_ec_gvl" ObjectId="a8949006-e023-4835-81d4-561e65b9aaf1" />
+            <Object Name="bds_inU_signal_te" ObjectId="21869b54-baa0-4247-b1c1-edecb4eb8766" />
+            <Object Name="bds_inR_signal_te" ObjectId="1cdbde51-9b7f-449d-9246-35687873eb21" />
+            <Object Name="bds_inPwm_signal_te" ObjectId="d0f3738f-847c-4144-9893-644263c4e85d" />
+            <Object Name="bds_inI_signal_te" ObjectId="80721aaa-f5f3-44c6-8055-df87f9901d34" />
+            <Object Name="bds_inDig_signal_te" ObjectId="72fc2f1b-736d-495d-996d-536f34aacba9" />
+            <Object Name="bds_inPha_signal_te" ObjectId="c89a7141-a04c-4a02-8dcc-241e21bef9a6" />
+          </Folder>
+          <Folder Name="bds_out_ec">
+            <Object Name="bds_out_aov_signal_te" ObjectId="542c47a9-1aad-4a5e-be9f-8d533202c780" />
+            <Object Name="bds_out_do_signal_te" ObjectId="6d6de164-a735-4fbc-9965-c5086ce9669c" />
+            <Object Name="bds_out_po_signal_te" ObjectId="a848742b-bee1-4bcd-8748-14fec0a6d215" />
+            <Object Name="bds_out_ec_gvl" ObjectId="61867e23-c616-45e7-bc7a-3cd855d9405e" />
+          </Folder>
+          <Folder Name="bds_sysIo_ec">
+            <Object Name="bds_sys_ait_signal_te" ObjectId="d1a9a93d-6fbc-4be1-9286-4ff356e7f7f0" />
+            <Object Name="bds_sys_aiv_signal_te" ObjectId="357239a9-8cf4-4777-99f8-1295cc179d42" />
+            <Object Name="bds_sys_di_signal_te" ObjectId="8ee493b7-c54e-41b5-9f18-b0f7e4b56880" />
+            <Object Name="bds_sys_do_signal_te" ObjectId="10b36081-773f-4b11-b1bd-1f3f0e37a431" />
+            <Object Name="bds_sys_vss_signal_te" ObjectId="da674a57-5d40-4495-b63b-a274018e128a" />
+			<Object Name="bds_sysIo_ec_gvl" ObjectId="52e31d39-d995-46f0-b71a-7a85c422fae9" />
+          </Folder>
+          <Folder Name="bds_sent_ec">
+            <Object Name="bds_sent_signal_te" ObjectId="b86c2583-67ed-441f-bb40-818115c80590" />
+			<Object Name="bds_sent_ec_gvl" ObjectId="b927cb5c-f83e-41a8-97fe-86f272138291" />
+          </Folder>
+		  <Folder Name="bds_sysPb_ec">
+            <Object Name="bds_sysPb_ec_gvl" ObjectId="7de27a17-5d41-47d9-99aa-0f2f28b367c9" />
+            <Object Name="bds_sysPb_vrnt_te" ObjectId="23f5a7e3-410a-4df0-81c9-c6ba97d9779f" />
+          </Folder>
+          <Folder Name="bds_out_ec">
+            <Object Name="bds_outClcU_signal_te" ObjectId="625fad57-0e03-43e1-8ef5-6b9c5eb8c536" />
+            <Object Name="bds_outDig_signal_te" ObjectId="09240e9d-6f5f-426f-91eb-7db3184b1cd1" />
+            <Object Name="bds_outPwm_signal_te" ObjectId="2837f36f-ea3d-4b19-b9ea-549c75b353d8" />
+          </Folder>
+        </Folder>
+      </ProjectStructure>
+    </data>
+  </addData>
+</project>
