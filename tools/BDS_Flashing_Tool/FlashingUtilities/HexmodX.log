@@ -1,0 +1,10 @@
+[HexmodX]        [13.3.1]       
+Copyright (c) Robert Bosch Gmbh Ltd.
+
+HEXMODX-INFO-COMMAND                                        read -in C:\Users\nah5si\Documents\Untitled3_BODAS_RC5_6_40_Application_merge.hex 
+HEXMODX-INFO-COMMAND                                        fillv -addr 0x800C0000 -l 0x200000 -fill 0x00 
+HEXMODX-INFO-COMMAND                                        write -out C:\Users\nah5si\Documents\sherif.hex -lyt 0x20 
+HEXMODX-ERROR-INPUT-FILE-NOT-FOUND                           File C:\Users\nah5si\Documents\Untitled3_BODAS_RC5_6_40_Application_merge.hex not found
+HEXMODX-ERROR-FAILURE                                        File C:\Users\nah5si\Documents\Untitled3_BODAS_RC5_6_40_Application_merge.hex not found
+HEXMODX-ERROR-FAILURE                                        Hexmod Execution Failure
+HEXMODX-INFO-HELP                                           Type 'HexmodX.cmd -help' for CLI commands help
