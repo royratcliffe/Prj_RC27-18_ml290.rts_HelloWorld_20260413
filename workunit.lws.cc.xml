@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE CATALOG PUBLIC "-//ASAM//DTD CONTAINER CATALOG:V3.0.0:LAI:IAI:ML:CC.DTD//EN" "catalog_V3_0_0.ml.dtd">
+
+<CATALOG>
+  <SHORT-NAME />
+  <CATEGORY />
+  <AREF CATEGORY="PLROOT" />
+  <ABLOCKS>
+    <ABLOCK>
+      <SHORT-NAME />
+      <CATEGORY />
+      <ADMIN-DATA>
+        <DOC-REVISIONS>
+          <DOC-REVISION>
+            <REVISION-LABEL>
+              <L-10 L="for-all">null;null</L-10>
+            </REVISION-LABEL>
+          </DOC-REVISION>
+        </DOC-REVISIONS>
+      </ADMIN-DATA>
+    </ABLOCK>
+    <ABLOCK>
+      <SHORT-NAME />
+      <CATEGORY>PLROOT</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="PRJ">root</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY">
+      <SHORT-NAME>root</SHORT-NAME>
+      <CATEGORY>PRJ</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="FX" VAR="1.0.0" REV="0">tools</AREF>
+        <AREF CATEGORY="FX" VAR="1.0.0" REV="0">easyConfig</AREF>
+        <AREF CATEGORY="FX" VAR="1.0.0" REV="0">BODAS-RTS</AREF>
+        <AREF CATEGORY="FX" VAR="1.0.0" REV="0">templateProject</AREF>
+        <AREF CATEGORY="FX" VAR="1.0.0" REV="0">logs</AREF>
+        <AREF CATEGORY="FX" VAR="1.0.0" REV="0">_doc</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>tools</SHORT-NAME>
+      <CATEGORY>FX</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">BDS_Flashing_Tool_2.0.0</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">Checksum_Calculation_Tool_for_ML</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BDS_Flashing_Tool_2.0.0</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>tools\BDS_Flashing_Tool_2.0.0.zip</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>Checksum_Calculation_Tool_for_ML</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>tools\Checksum_Calculation_Tool_for_ML.zip</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>easyConfig</SHORT-NAME>
+      <CATEGORY>FX</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">bodas</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">easyConfig_ConfigData</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>bodas</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>easyConfig\bodas.bxmlmodel</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>easyConfig_ConfigData</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>easyConfig\easyConfig_ConfigData.zip</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS-RTS</SHORT-NAME>
+      <CATEGORY>FX</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">AdditionalPlugins</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">BODAS-RC18-12_27-18_40-DSA</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">BODAS-RC18-12_27-18_40-DST</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">BODAS-RC18-12_27-18_40-PAL</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">BODAS-RC18-12_27-18_40-PR4</AREF>
+        <AREF CATEGORY="CONFDATA" VAR="1.0.0" REV="0">BODAS_RC18-12_27-18_40.devdesc</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">BODAS_RC18-12_27-18_40</AREF>
+        <AREF CATEGORY="CONFDATA" VAR="1.0.0" REV="0">bds_rts_ec</AREF>
+        <AREF CATEGORY="CONFDATA" VAR="1.0.0" REV="0">dsm_easyConfig</AREF>
+        <AREF CATEGORY="CONFDATA" VAR="1.0.0" REV="0">linCanSignals_easyConfig</AREF>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">Gateway</AREF>
+        <AREF CATEGORY="PJTHEX" VAR="1.0.0" REV="0">BODAS-RTS</AREF>
+        <AREF CATEGORY="PJTA2L" VAR="1.0.0" REV="0">RC40_LARGE_IFX4_BSW2003_40NM</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>AdditionalPlugins</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\AdditionalPlugins.zip</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS-RC18-12_27-18_40-DSA</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\BODAS-RC18-12_27-18_40-DSA.library</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS-RC18-12_27-18_40-DST</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\BODAS-RC18-12_27-18_40-DST.library</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS-RC18-12_27-18_40-PAL</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\BODAS-RC18-12_27-18_40-PAL.library</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS-RC18-12_27-18_40-PR4</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\BODAS-RC18-12_27-18_40-PR4.library</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS_RC18-12_27-18_40.devdesc</SHORT-NAME>
+      <CATEGORY>CONFDATA</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\BODAS_RC18-12_27-18_40.devdesc.xml</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS_RC18-12_27-18_40</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\BODAS_RC18-12_27-18_40.library</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>bds_rts_ec</SHORT-NAME>
+      <CATEGORY>CONFDATA</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\easyConfig\bds_rts_ec.xml</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>dsm_easyConfig</SHORT-NAME>
+      <CATEGORY>CONFDATA</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\easyConfig\dsm_easyConfig.xml</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>linCanSignals_easyConfig</SHORT-NAME>
+      <CATEGORY>CONFDATA</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\CodesysImports\easyConfig\linCanSignals_easyConfig.xml</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>Gateway</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\GatewayCFG\Gateway.cfg</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>BODAS-RTS</SHORT-NAME>
+      <CATEGORY>PJTHEX</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\hex\BODAS-RTS.hex</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>RC40_LARGE_IFX4_BSW2003_40NM</SHORT-NAME>
+      <CATEGORY>PJTA2L</CATEGORY>
+      <FILES>
+        <FILE>BODAS-RTS\hex\RC40_LARGE_IFX4_BSW2003_40NM.a2l</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>templateProject</SHORT-NAME>
+      <CATEGORY>FX</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">HelloWorld</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>HelloWorld</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>templateProject\HelloWorld.project</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>logs</SHORT-NAME>
+      <CATEGORY>FX</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="PJTLOG" VAR="1.0.0" REV="0">mdgb1</AREF>
+        <AREF CATEGORY="PJTLOG" VAR="1.0.0" REV="0">project</AREF>
+        <AREF CATEGORY="PJTLOG" VAR="1.0.0" REV="0">SWSHImport</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>mdgb1</SHORT-NAME>
+      <CATEGORY>PJTLOG</CATEGORY>
+      <FILES>
+        <FILE>logs\mdgb1.log</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>project</SHORT-NAME>
+      <CATEGORY>PJTLOG</CATEGORY>
+      <FILES>
+        <FILE>logs\project.log</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>SWSHImport</SHORT-NAME>
+      <CATEGORY>PJTLOG</CATEGORY>
+      <FILES>
+        <FILE>logs\SWSHImport.log</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>_doc</SHORT-NAME>
+      <CATEGORY>FX</CATEGORY>
+      <AREFS>
+        <AREF CATEGORY="DOCMISC" VAR="1.0.0" REV="0">RC40_Codesys_ML_Manual</AREF>
+        <AREF CATEGORY="SWSF" VAR="1.0.0" REV="0">ReadMe</AREF>
+        <AREF CATEGORY="SWSF" VAR="1.0.0" REV="0">version_info</AREF>
+        <AREF CATEGORY="SWSF" VAR="1.0.0" REV="0">[H2] CODESYS Safety SIL2 - IEC Programming Guidelines</AREF>
+      </AREFS>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>RC40_Codesys_ML_Manual</SHORT-NAME>
+      <CATEGORY>DOCMISC</CATEGORY>
+      <FILES>
+        <FILE>_doc\RC40_Codesys_ML_Manual.chm</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>ReadMe</SHORT-NAME>
+      <CATEGORY>SWSF</CATEGORY>
+      <FILES>
+        <FILE>_doc\ReadMe.txt</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>version_info</SHORT-NAME>
+      <CATEGORY>SWSF</CATEGORY>
+      <FILES>
+        <FILE>_doc\version_info.pdf</FILE>
+      </FILES>
+    </ABLOCK>
+    <ABLOCK UPD="TEMPORARY" VAR="1.0.0" REV="0">
+      <SHORT-NAME>[H2] CODESYS Safety SIL2 - IEC Programming Guidelines</SHORT-NAME>
+      <CATEGORY>SWSF</CATEGORY>
+      <FILES>
+        <FILE>_doc\[H2] CODESYS Safety SIL2 - IEC Programming Guidelines.pdf</FILE>
+      </FILES>
+    </ABLOCK>
+  </ABLOCKS>
+</CATALOG>
+

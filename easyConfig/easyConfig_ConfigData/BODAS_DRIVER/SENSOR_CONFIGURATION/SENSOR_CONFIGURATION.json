@@ -1,0 +1,28 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "sensorConfigs" : [ {
+    "sensorConfigId" : "732cc246-1a5b-448d-ab7a-784e64881b47",
+    "label" : "SpdSnsr",
+    "type" : "DST",
+    "pinGroup1" : "K37",
+    "pinGroup2" : "K41",
+    "pinGroup3" : null,
+    "pinGroup1DeviceName" : null,
+    "pinGroup2DeviceName" : null,
+    "pinGroup3DeviceName" : null,
+    "listOfFunctionConfigured" : null,
+    "variant" : null
+  }, {
+    "sensorConfigId" : "8bf5d3e4-4bbb-4ee1-afff-b290c6f16e27",
+    "label" : "pSnsr",
+    "type" : "PR-4",
+    "pinGroup1" : "K59",
+    "pinGroup2" : null,
+    "pinGroup3" : null,
+    "pinGroup1DeviceName" : null,
+    "pinGroup2DeviceName" : null,
+    "pinGroup3DeviceName" : null,
+    "listOfFunctionConfigured" : null,
+    "variant" : "PR4 XXX XX SE/10"
+  } ]
+}

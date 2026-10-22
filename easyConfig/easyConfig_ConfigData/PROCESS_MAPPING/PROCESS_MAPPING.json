@@ -1,0 +1,264 @@
+{
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "osList" : [ {
+    "osId" : "5cf8b3c2-2387-4568-a30d-185e292e8ee1",
+    "name" : "RTAOS",
+    "executionTimeInSeconds" : 0,
+    "osProcesses" : [ {
+      "processId" : "5e43d88d-16ee-471e-8076-70eb86346776",
+      "name" : "RTAOS_Processes",
+      "run" : false,
+      "postRun" : false
+    } ],
+    "osTasks" : [ {
+      "taskId" : "1cb65f43-d28a-4151-9893-a24cfd922748",
+      "name" : "RTAOS_Tasks",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "a4b7b788-4deb-4bdf-a069-3f49c26d09f4",
+      "name" : "OS_100ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "e391ad8f-1158-4bc8-807f-8143f66fb14c",
+      "name" : "OS_10ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "b1646bd5-16d6-43b6-9a89-ac220f85d64b",
+      "name" : "OS_1ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "af80f094-ff8b-4403-b9f5-2777af8a83ef",
+      "name" : "OS_20ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "636612e9-9931-44e2-b708-d45d0b0bb887",
+      "name" : "OS_40ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "4e40ebba-3514-4a1f-839a-441fd3ba0ad6",
+      "name" : "OS_80ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "45978ac7-ab61-4c8c-997e-82753aa69663",
+      "name" : "OS_2ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "5c4bebd0-b33a-449a-b2d8-43fa3fcef3ba",
+      "name" : "OS_50ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "100e756b-8a8c-4a96-b1ab-3d4fd3053555",
+      "name" : "OS_5ms_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "e131a9db-3452-425c-8231-01b926986aa2",
+      "name" : "OS_Asw1Bg_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "f550be08-670a-417d-8557-bce5a13f15a0",
+      "name" : "OS_IniDrv_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ {
+        "name" : "OsIniProc",
+        "run" : false,
+        "postRun" : false
+      } ]
+    }, {
+      "taskId" : "ed9fdb28-7426-4f8c-b580-2abd37cbba53",
+      "name" : "OS_Shutdown_Asw1_Task",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "5348e031-e695-4d30-8291-1f63c1d0cf63",
+      "name" : "OS_1ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "c92e4be8-3a84-441a-9c27-502504f43421",
+      "name" : "OS_10ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "f807272c-96dd-4b0c-9749-081ad495c834",
+      "name" : "OS_2ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "2d3cc3c4-fd6d-4b66-b044-85545daea885",
+      "name" : "OS_20ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "9893f520-d642-4e70-bb9f-212f68e6df6e",
+      "name" : "OS_5ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "75269983-9256-42a4-be08-8ddb9dea9fa5",
+      "name" : "OS_40ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "4e3a0d0c-90b4-4465-8b6c-e6cee697f447",
+      "name" : "OS_50ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "c4960d2b-5b65-4e0c-803a-b05074517b83",
+      "name" : "OS_80ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "a7028282-9865-48f8-bd2f-c53354f274a2",
+      "name" : "OS_100ms_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "e4c12029-7ae9-4af3-931d-a36d59cacb60",
+      "name" : "OS_AswBg_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "88b447fc-ca3f-49ab-8390-e7073d1681a5",
+      "name" : "OS_IniDrv_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "a1c47cd5-5f85-40b5-98b6-b7012dea5744",
+      "name" : "OS_AswShutdown_Task_Untrusted",
+      "core" : "CORE_1",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "f659dc7c-1838-489b-8fa0-98297f20007d",
+      "name" : "OS_core2_AswBg_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "fdbe817c-e7c1-4b83-b885-d54310b77575",
+      "name" : "OS_core2_1ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "efe51b10-8fe5-420d-befd-fc3fcd1895fa",
+      "name" : "OS_core2_2ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "85657959-9ee1-4ba4-909d-e39bd5ee0e20",
+      "name" : "OS_core2_5ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "99cda4a8-e7eb-4712-be31-1702f81c7fa9",
+      "name" : "OS_core2_10ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "4720eaa5-3989-4534-a0e9-3fcccbe7c809",
+      "name" : "OS_core2_20ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "5ba94764-051d-4e2d-bad7-dd8951872b57",
+      "name" : "OS_core2_40ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "9cdbd909-c746-4458-bc7a-f4e980352e50",
+      "name" : "OS_core2_50ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "0c604ea8-2421-446a-a2ab-3f245a649524",
+      "name" : "OS_core2_80ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "b6e09013-968a-42d7-8204-a6bebf400eeb",
+      "name" : "OS_core2_100ms_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "152b559b-01ee-4c1b-b980-c52a8062e041",
+      "name" : "OS_core2_IniDrv_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "e1a78709-42bc-4c85-8495-1e0a30a92004",
+      "name" : "OS_core2_AswShutdown_Task",
+      "core" : "CORE_2",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "445f0c02-26f6-4413-a38f-88f467b54405",
+      "name" : "OS_core3_AswBg_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "9ec34bed-428e-4b3d-8a41-375942b5f8d4",
+      "name" : "OS_core3_1ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "de19b7db-ecae-4a75-88c3-5012a2dc141a",
+      "name" : "OS_core3_2ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "0f8ba602-ea5a-4872-abad-6a652e48cc39",
+      "name" : "OS_core3_5ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "29abc188-8c68-472f-ae01-629e9e00b1ac",
+      "name" : "OS_core3_10ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "b2618a46-08ae-4855-acad-d588fb9738ac",
+      "name" : "OS_core3_20ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "a6f266bd-b86a-40a4-af6e-2afc7de390c2",
+      "name" : "OS_core3_40ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "d95312ea-56bb-45b4-92bb-709f61eaf479",
+      "name" : "OS_core3_50ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "7859f0a0-db0f-40e0-93bc-025a5eda0093",
+      "name" : "OS_core3_80ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "7f417211-d64a-4973-93e9-18d7b955357b",
+      "name" : "OS_core3_100ms_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "883f1b66-c565-4db5-8a7c-b1026a0bb48c",
+      "name" : "OS_core3_IniDrv_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    }, {
+      "taskId" : "d14d19c0-e668-47ac-bd53-f357b107281a",
+      "name" : "OS_core3_AswShutdown_Task",
+      "core" : "CORE_3",
+      "osProcesses" : [ ]
+    } ]
+  } ]
+}

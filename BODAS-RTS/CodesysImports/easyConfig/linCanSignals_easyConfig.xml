@@ -1,0 +1,577 @@
+<project xmlns="http://www.plcopen.org/xml/tc6_0200">
+  <fileHeader companyName="" productName="" productVersion="" creationDateTime="2022-10-05T09:23:09.683" />
+  <contentHeader name="GVLLinCanSignals" modificationDateTime="2022-10-05T09:23:09.683">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="1" y="1" />
+      </fbd>
+      <ld>
+        <scaling x="1" y="1" />
+      </ld>
+      <sfc>
+        <scaling x="1" y="1" />
+      </sfc>
+    </coordinateInfo>
+  </contentHeader>
+  <types>
+    <dataTypes />
+    <pous />
+  </types>
+  <instances>
+    <configurations />
+  </instances>
+  <addData>
+    <data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+      <globalVars name="GVL_linCanSignals_easyConfig">
+        <variable name="PDUR_VARIANT_PRE_COMPILE">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PDUR_VARIANT_POSTBUILD_LOADABLE">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PDUR_CONFIGURATION_VARIANT">
+          <initialValue>
+            <simpleValue value="PDUR_VARIANT_PRE_COMPILE" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_CddToPduR_HWVrsNumIBS2105_Src">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_PduRToLinTp_HWVrsNumIBS2105_Dest">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_DoIP_Rx_DoIP2PduR_Src_Java">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_DoIP_Rx_PduR2Dcm_Dest_Java">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_DoIP_Tx_Dcm2PduR_Src_JavaTool">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_DoIP_Tx_PduR2DoIP_Dest_Java">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_LinTPToPduR_HWVrsNumIBS2105_Src">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_PduRToCdd_HWVrsNumIBS2105_Dest">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_NM_TX_FA_Com2PduR_Src">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_NM_TX_FA_PduR2CanNm_Dest">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_CCVS_xTx_Src">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_rbr_Pdu_CanIf_CCVS_xTx_Dest">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_CanIf_sig_C_xRx_Src">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_C_xTx_Src">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_rbr_Pdu_CanIf_sig_C_xTx_Dest">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_CanIf_EngCtrl1_xRx_Dest">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_UdsOnCan_FctExtdidRx_CanTp2PduR_Src">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_UdsOnCan_FctExtdidRx_PduR2Dcm_Dest">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_UdsOnCan_PhyRxExtdId_CanTp2PduR_Src">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_UdsOnCan_PhyRxExtdId_PduR2Dcm_Dest">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRSrcPdu_UdsOnCan_PhyTxExtdId_Dcm2PduR_Src">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="PduRConf_PduRDestPdu_UdsOnCan_PhyTxExtdId_PduR2CanTp_Dest">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="LinIfConf_LinIfChannel_LinIfChannel_0">
+          <initialValue>
+            <simpleValue value="5" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="LinIfConf_LinIfFrame_LinIf_MRF">
+          <initialValue>
+            <simpleValue value="16#00" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="LinIfConf_LinIfFrame_LinIf_SRF">
+          <initialValue>
+            <simpleValue value="16#01" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="NULL_SCHEDULE">
+          <initialValue>
+            <simpleValue value="16#00" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="LinIf_Scht_MasterReq_LinIfChannel_0_bds_Pb_preDefRef_vrnt01">
+          <initialValue>
+            <simpleValue value="16#01" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="LinIf_Scht_SlaveResp_LinIfChannel_0_bds_Pb_preDefRef_vrnt01">
+          <initialValue>
+            <simpleValue value="16#02" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="LinIf_Scht_RUN_MAIN_LinIfChannel_0_bds_Pb_preDefRef_vrnt01">
+          <initialValue>
+            <simpleValue value="16#03" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="COM_VARIANT_PRE_COMPILE">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="COM_VARIANT_LINK_TIME">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="COM_VARIANT_POSTBUILD_LOADABLE">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="COM_VARIANT_POSTBUILD_SELECTABLE">
+          <initialValue>
+            <simpleValue value="3" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="COM_CONFIGURATION_VARIANT">
+          <initialValue>
+            <simpleValue value="COM_VARIANT_PRE_COMPILE" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPdu_ComIPdu_CCVS_xTx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPdu_ComIPdu_C_xTx">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPdu_NM_TX_FA">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPdu_ComIPdu_C_xRx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPdu_ComIPdu_EngCtrl1_xRx">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_WheelBasedVehicleSpeed_xTx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_ParkingBrakeSwitch_xTx">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_C_xTx">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_C_xRx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_EngSpeed_xRx">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_ActualEngPercentTorque_xRx">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignalGroup_ComSignalGroup_Tx_1">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignalGroup_ComSignalGroup_Rx_1">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComGroupSignal_ComGroupSignal_Tx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComGroupSignal_ComGroupSignal_Rx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_CAN_2_Rx">
+          <initialValue>
+            <simpleValue value="0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_CAN_2_Tx">
+          <initialValue>
+            <simpleValue value="1" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_C_Rx">
+          <initialValue>
+            <simpleValue value="2" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_C_Tx">
+          <initialValue>
+            <simpleValue value="3" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_LE_CAN_NM_TX">
+          <initialValue>
+            <simpleValue value="4" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_LP_CAN_NM_TX">
+          <initialValue>
+            <simpleValue value="5" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_LinChannel_0_RX">
+          <initialValue>
+            <simpleValue value="6" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_LinChannel_0_TX">
+          <initialValue>
+            <simpleValue value="7" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_LinRx">
+          <initialValue>
+            <simpleValue value="8" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_LinTx">
+          <initialValue>
+            <simpleValue value="9" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_MLIN_RX">
+          <initialValue>
+            <simpleValue value="10" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_MLIN_TX">
+          <initialValue>
+            <simpleValue value="11" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_PT_CAN_RX">
+          <initialValue>
+            <simpleValue value="12" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComIPduGroup_PT_CAN_TX">
+          <initialValue>
+            <simpleValue value="13" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="BDS_LIN_CHNL_1_DU8">
+          <initialValue>
+            <simpleValue value="LinIfConf_LinIfChannel_LinIfChannel_0" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <addData>
+          <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
+            <ObjectId>accb2044-be3d-4110-8fb2-49967dad7691</ObjectId>
+          </data>
+        </addData>
+      </globalVars>
+    </data>
+    <data name="http://www.3s-software.com/plcopenxml/projectstructure" handleUnknown="discard">
+      <ProjectStructure>
+        <Folder Name="Lin_CanSignals_easyConfig">
+          <Object Name="GVL_linCanSignals_easyConfig" ObjectId="accb2044-be3d-4110-8fb2-49967dad7691" />
+        </Folder>
+      </ProjectStructure>
+    </data>
+  </addData>
+</project>

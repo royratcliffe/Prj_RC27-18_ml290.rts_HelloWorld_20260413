@@ -1,0 +1,4059 @@
+{
+  "id" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "projectUUID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "projectID" : "2e79d30f-92d3-47db-ac7a-8877ff084b31",
+  "preferences" : {
+    "currentSignalDerivation" : [ {
+      "pinName" : "K38",
+      "signalName" : "X_X_X06",
+      "shuntSignal" : "CTO_AIC2_SHUNT_EN",
+      "calOffsetAddress" : "4"
+    }, {
+      "pinName" : "K39",
+      "signalName" : "X_X_X05",
+      "shuntSignal" : "CTO_AIC1_SHUNT_EN",
+      "calOffsetAddress" : "0"
+    }, {
+      "pinName" : "K40",
+      "signalName" : "X_X_X07",
+      "shuntSignal" : "CTO_AIC3_SHUNT_EN",
+      "calOffsetAddress" : "8"
+    }, {
+      "pinName" : "K41",
+      "signalName" : "X_X_X08",
+      "shuntSignal" : "CTO_AIC4_SHUNT_EN",
+      "calOffsetAddress" : "12"
+    }, {
+      "pinName" : "K42",
+      "signalName" : "X_X_X09",
+      "shuntSignal" : "CTO_AIC12_SHUNT_EN",
+      "calOffsetAddress" : "16"
+    }, {
+      "pinName" : "K54",
+      "signalName" : "X_X_X11",
+      "shuntSignal" : "CTO_DSM1_SHUNT_EN",
+      "calOffsetAddress" : "20"
+    }, {
+      "pinName" : "K55",
+      "signalName" : "X_X_X12",
+      "shuntSignal" : "CTO_DSM2_SHUNT_EN",
+      "calOffsetAddress" : "24"
+    }, {
+      "pinName" : "K44",
+      "signalName" : "X_X_X21",
+      "shuntSignal" : "CTO_AIC6_SHUNT_EN",
+      "calOffsetAddress" : "32"
+    }, {
+      "pinName" : "K45",
+      "signalName" : "X_X_X20",
+      "shuntSignal" : "CTO_AIC5_SHUNT_EN",
+      "calOffsetAddress" : "28"
+    }, {
+      "pinName" : "K63",
+      "signalName" : "X_X_X23",
+      "shuntSignal" : "CTO_AIC8_SHUNT_EN",
+      "calOffsetAddress" : "40"
+    }, {
+      "pinName" : "K64",
+      "signalName" : "X_X_X24",
+      "shuntSignal" : "CTO_AIC13_SHUNT_EN",
+      "calOffsetAddress" : "44"
+    }, {
+      "pinName" : "K65",
+      "signalName" : "X_X_X22",
+      "shuntSignal" : "CTO_AIC7_SHUNT_EN",
+      "calOffsetAddress" : "36"
+    }, {
+      "pinName" : "K37",
+      "signalName" : "X_X_X26",
+      "shuntSignal" : "CTO_DSM3_SHUNT_EN",
+      "calOffsetAddress" : "48"
+    }, {
+      "pinName" : "K61",
+      "signalName" : "X_X_X27",
+      "shuntSignal" : "CTO_DSM4_SHUNT_EN",
+      "calOffsetAddress" : "52"
+    }, {
+      "pinName" : "A36",
+      "signalName" : "X_X_X35",
+      "shuntSignal" : "CTO_AIC9_SHUNT_EN",
+      "calOffsetAddress" : "56"
+    }, {
+      "pinName" : "A37",
+      "signalName" : "X_X_X36",
+      "shuntSignal" : "CTO_AIC10_SHUNT_EN",
+      "calOffsetAddress" : "60"
+    }, {
+      "pinName" : "A38",
+      "signalName" : "X_X_X37",
+      "shuntSignal" : "CTO_AIC11_SHUNT_EN",
+      "calOffsetAddress" : "64"
+    }, {
+      "pinName" : "A39",
+      "signalName" : "X_X_X38",
+      "shuntSignal" : "CTO_AIC14_SHUNT_EN",
+      "calOffsetAddress" : "68"
+    }, {
+      "pinName" : "A43",
+      "signalName" : "X_X_X41",
+      "shuntSignal" : "CTO_DSM6_SHUNT_EN",
+      "calOffsetAddress" : "72"
+    }, {
+      "pinName" : "K30",
+      "signalName" : "X_X_X42",
+      "shuntSignal" : "CTO_DSM5_SHUNT_EN",
+      "calOffsetAddress" : "76"
+    } ],
+    "sensorConfigMetadataInfos" : [ {
+      "type" : "DST",
+      "variants" : [ {
+        "variantName" : "DST",
+        "group1Pins" : [ "K37", "K54", "K55", "K61", "A43", "K30" ],
+        "group2Pins" : [ "K52", "K60", "K53", "K59", "K39", "K38", "K40", "K41", "K42", "K43", "K57", "K58", "K36", "K56", "K45", "K44", "K65", "K63", "K64", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39", "K32", "K33", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "ResistanceMeasurementSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "Frequency Detection",
+        "group2PinFunction" : "Temperature Detection",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      } ]
+    }, {
+      "type" : "PR-4",
+      "variants" : [ {
+        "variantName" : "PR4 XXX XX SE/10",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : null,
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PR4 050 XX 05/10",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PR4 100 XX 05/10",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PR4 280 XX 05/10",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PR4 400 XX 05/10",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PR4 420 XX 05/10",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PR4 600 XX 05/10",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43" ],
+        "group2Pins" : null,
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : null,
+        "group3PinType" : null,
+        "group1PinFunction" : "Pressure Detection",
+        "group2PinFunction" : null,
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      } ]
+    }, {
+      "type" : "PAL",
+      "variants" : [ {
+        "variantName" : "PAL 2 312A340 CM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "Frequency",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 313A357 CM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "Frequency",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 326A004 CM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "Frequency",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 012L012 CM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "Frequency",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 030B030 CM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "Frequency",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 315A045 AM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 339A021 AM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 270A090 AM/10F",
+        "group1Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K38", "K39", "K40", "K41", "K42", "K43", "K52", "K53", "K59", "K60", "K54", "K55", "K44", "K45", "K63", "K64", "K65", "K62", "K36", "K56", "K57", "K58", "K37", "K61", "A36", "A37", "A38", "A39", "K32", "K33", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 007L007 PM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K54", "K55", "K36", "K56", "K57", "K58", "K37", "K61", "A21", "A22", "A23", "A24", "K30", "A43", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "Frequency",
+        "group2PinType" : "Frequency",
+        "group3PinType" : null,
+        "group1PinFunction" : "Channel Input 1",
+        "group2PinFunction" : "Channel Input 2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 312A340 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 313A357 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 326A004 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 339A021 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 012L012 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 030B030 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 315A045 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      }, {
+        "variantName" : "PAL 2 270A090 SM/10F",
+        "group1Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group2Pins" : [ "K52", "K53", "K59", "K60", "K36", "K56", "K57", "K58", "None" ],
+        "group3Pins" : null,
+        "group1PinType" : "SENTSignal",
+        "group2PinType" : "SENTSignal",
+        "group3PinType" : null,
+        "group1PinFunction" : "ChannelInput1",
+        "group2PinFunction" : "ChannelInput2",
+        "group3PinFunction" : null,
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : "Frequency",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : null,
+        "group1AliasName" : "Output 1",
+        "group2AliasName" : "Output 2",
+        "group3AliasName" : null
+      } ]
+    }, {
+      "type" : "DSA",
+      "variants" : [ {
+        "variantName" : "DSA 1 S18 K0250 F20A /20H",
+        "group1Pins" : [ "K54", "K37", "K55", "K61", "K30", "A43" ],
+        "group2Pins" : [ "K32", "K33", "K38", "K39", "K40", "K41", "K42", "K43", "K44", "K45", "K63", "K64", "K65", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39" ],
+        "group3Pins" : [ "K36", "K38", "K39", "K40", "K41", "K42", "K43", "K44", "K45", "K52", "K53", "K56", "K57", "K58", "K59", "K60", "K63", "K64", "K65", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39", "K32", "K33", "None" ],
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : "ResistanceMeasurementSignal",
+        "group1PinFunction" : "Frequency Detection",
+        "group2PinFunction" : "Voltage Rotation Direction",
+        "group3PinFunction" : "Temperature Detection",
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins", "group2Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "DSA 1 S32 K0250 F20A /20H",
+        "group1Pins" : [ "K54", "K37", "K55", "K61", "K30", "A43" ],
+        "group2Pins" : [ "K32", "K33", "K38", "K39", "K40", "K41", "K42", "K43", "K44", "K45", "K63", "K64", "K65", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39" ],
+        "group3Pins" : [ "K36", "K38", "K39", "K40", "K41", "K42", "K43", "K44", "K45", "K52", "K53", "K56", "K57", "K58", "K59", "K60", "K63", "K64", "K65", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39", "K32", "K33", "None" ],
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : "ResistanceMeasurementSignal",
+        "group1PinFunction" : "Frequency Detection",
+        "group2PinFunction" : "Voltage Rotation Direction",
+        "group3PinFunction" : "Temperature Detection",
+        "group1ChildPinType" : "Frequency",
+        "group2ChildPinType" : null,
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins", "group2Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "DSA 2 S18 K0250 F20A /20H",
+        "group1Pins" : [ "K54", "K55", "K30" ],
+        "group2Pins" : [ "K37", "K61", "A43" ],
+        "group3Pins" : [ "K36", "K38", "K39", "K40", "K41", "K42", "K43", "K44", "K45", "K52", "K53", "K56", "K57", "K58", "K59", "K60", "K63", "K64", "K65", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39", "K32", "K33", "None" ],
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : "ResistanceMeasurementSignal",
+        "group1PinFunction" : "Phase Measurement 1",
+        "group2PinFunction" : "Phase Measurement 2",
+        "group3PinFunction" : "Temperature Detection",
+        "group1ChildPinType" : "PhaseMeasurementSignal",
+        "group2ChildPinType" : "PhaseMeasurementSignal",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins", "group2Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      }, {
+        "variantName" : "DSA 2 S32 K0250 F20A /20H",
+        "group1Pins" : [ "K54", "K55", "K30" ],
+        "group2Pins" : [ "K37", "K61", "A43" ],
+        "group3Pins" : [ "K36", "K38", "K39", "K40", "K41", "K42", "K43", "K44", "K45", "K52", "K53", "K56", "K57", "K58", "K59", "K60", "K63", "K64", "K65", "A21", "A22", "A23", "A24", "A36", "A37", "A38", "A39", "K32", "K33", "None" ],
+        "group1PinType" : "AnalogSignal",
+        "group2PinType" : "AnalogSignal",
+        "group3PinType" : "ResistanceMeasurementSignal",
+        "group1PinFunction" : "Phase Measurement 1",
+        "group2PinFunction" : "Phase Measurement 2",
+        "group3PinFunction" : "Temperature Detection",
+        "group1ChildPinType" : "PhaseMeasurementSignal",
+        "group2ChildPinType" : "PhaseMeasurementSignal",
+        "group3ChildPinType" : null,
+        "mandatoryPinToConfigure" : [ "group1Pins", "group2Pins" ],
+        "group1AliasName" : null,
+        "group2AliasName" : null,
+        "group3AliasName" : null
+      } ]
+    } ],
+    "phaseFreqDerivation" : [ {
+      "signalName" : "X_X_X01",
+      "channelNumber" : "CHA_01",
+      "hwChannel" : "CH4",
+      "port" : "PORT_31_9",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH1",
+      "sentModule" : "SENT1",
+      "pinName" : "K52",
+      "mcsChannel" : "MCS6_CH1",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X02",
+      "channelNumber" : "CHA_02",
+      "hwChannel" : "CH3",
+      "port" : "PORT_31_11",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH3",
+      "sentModule" : "SENT2",
+      "pinName" : "K60",
+      "mcsChannel" : "MCS5_CH3",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X03",
+      "channelNumber" : "CHA_03",
+      "hwChannel" : "CH3",
+      "port" : "PORT_31_8",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH0",
+      "sentModule" : "SENT3",
+      "pinName" : "K53",
+      "mcsChannel" : "MCS5_CH0",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X04",
+      "channelNumber" : "CHA_04",
+      "hwChannel" : "CH1",
+      "port" : "PORT_31_10",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH2",
+      "sentModule" : "SENT4",
+      "pinName" : "K59",
+      "mcsChannel" : "MCS5_CH2",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X16",
+      "channelNumber" : "CHA_01",
+      "hwChannel" : "CH0",
+      "port" : "PORT_10_11",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH2",
+      "sentModule" : "SENT1",
+      "pinName" : "K57",
+      "mcsChannel" : "MCS6_CH1",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X17",
+      "channelNumber" : "CHA_02",
+      "hwChannel" : "CH2",
+      "port" : "PORT_01_9",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH1",
+      "sentModule" : "SENT2",
+      "pinName" : "K58",
+      "mcsChannel" : "MCS5_CH3",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X18",
+      "channelNumber" : "CHA_03",
+      "hwChannel" : "CH0",
+      "port" : "PORT_01_8",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH4",
+      "sentModule" : "SENT3",
+      "pinName" : "K36",
+      "mcsChannel" : "MCS5_CH0",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X19",
+      "channelNumber" : "CHA_04",
+      "hwChannel" : "CH1",
+      "port" : "PORT_01_10",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH5",
+      "sentModule" : "SENT4",
+      "pinName" : "K56",
+      "mcsChannel" : "MCS5_CH2",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X31",
+      "channelNumber" : "CHA_01",
+      "hwChannel" : "CH0",
+      "port" : "PORT_10_09",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH1",
+      "sentModule" : "SENT1",
+      "pinName" : "A21",
+      "mcsChannel" : "MCS4_CH1",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X32",
+      "channelNumber" : "CHA_02",
+      "hwChannel" : "CH2",
+      "port" : "PORT_10_10",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH2",
+      "sentModule" : "SENT2",
+      "pinName" : "A22",
+      "mcsChannel" : "MCS4_CH1",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X33",
+      "channelNumber" : "CHA_03",
+      "hwChannel" : "CH0",
+      "port" : "PORT_10_14",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH3",
+      "sentModule" : "SENT3",
+      "pinName" : "A23",
+      "mcsChannel" : "MCS4_CH3",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "X_X_X34",
+      "channelNumber" : "CHA_04",
+      "hwChannel" : "CH1",
+      "port" : "PORT_10_13",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH4",
+      "sentModule" : "SENT4",
+      "pinName" : "A24",
+      "mcsChannel" : "MCS4_CH3",
+      "signalInverted" : false,
+      "isSignalInverted" : false
+    }, {
+      "signalName" : "I_F_DSM1",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_22_09",
+      "timerModule" : "TIM3",
+      "timerChannel" : "CH5",
+      "sentModule" : "",
+      "pinName" : "K54_VI",
+      "mcsChannel" : "MCS3_CH5",
+      "signalInverted" : true,
+      "isSignalInverted" : true
+    }, {
+      "signalName" : "I_F_DSM2",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_04",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH4",
+      "sentModule" : "",
+      "pinName" : "K55_VI",
+      "mcsChannel" : "MCS6_CH4",
+      "signalInverted" : true,
+      "isSignalInverted" : true
+    }, {
+      "signalName" : "I_F_DSM3",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_22_07",
+      "timerModule" : "TIM3",
+      "timerChannel" : "CH3",
+      "sentModule" : "",
+      "pinName" : "K37_VI",
+      "mcsChannel" : "MCS3_CH5",
+      "signalInverted" : true,
+      "isSignalInverted" : true
+    }, {
+      "signalName" : "I_F_DSM4",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_05",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH5",
+      "sentModule" : "",
+      "pinName" : "K61_VI",
+      "mcsChannel" : "MCS6_CH4",
+      "signalInverted" : true,
+      "isSignalInverted" : true
+    }, {
+      "signalName" : "I_F_DSM5",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_06",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH6",
+      "sentModule" : "",
+      "pinName" : "K30_VI",
+      "mcsChannel" : "MCS6_CH6",
+      "signalInverted" : true,
+      "isSignalInverted" : true
+    }, {
+      "signalName" : "I_F_DSM6",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_07",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH7",
+      "sentModule" : "",
+      "pinName" : "A43_VI",
+      "mcsChannel" : "MCS6_CH6",
+      "signalInverted" : true,
+      "isSignalInverted" : true
+    } ],
+    "sigChannelList" : [ {
+      "name" : "X_X_X01",
+      "channelNumber" : "CHA_01"
+    }, {
+      "name" : "X_X_X02",
+      "channelNumber" : "CHA_02"
+    }, {
+      "name" : "X_X_X03",
+      "channelNumber" : "CHA_03"
+    }, {
+      "name" : "X_X_X04",
+      "channelNumber" : "CHA_04"
+    }, {
+      "name" : "X_X_X05",
+      "channelNumber" : "CHA_05"
+    }, {
+      "name" : "X_X_X06",
+      "channelNumber" : "CHA_06"
+    }, {
+      "name" : "X_X_X07",
+      "channelNumber" : "CHA_07"
+    }, {
+      "name" : "X_X_X08",
+      "channelNumber" : "CHA_08"
+    }, {
+      "name" : "X_X_X09",
+      "channelNumber" : "CHA_09"
+    }, {
+      "name" : "X_X_X10",
+      "channelNumber" : "CHA_10"
+    }, {
+      "name" : "X_X_X11",
+      "channelNumber" : "CHA_11"
+    }, {
+      "name" : "X_X_X12",
+      "channelNumber" : "CHA_12"
+    }, {
+      "name" : "X_X_X16",
+      "channelNumber" : "CHA_01"
+    }, {
+      "name" : "X_X_X17",
+      "channelNumber" : "CHA_02"
+    }, {
+      "name" : "X_X_X18",
+      "channelNumber" : "CHA_03"
+    }, {
+      "name" : "X_X_X19",
+      "channelNumber" : "CHA_04"
+    }, {
+      "name" : "X_X_X20",
+      "channelNumber" : "CHA_05"
+    }, {
+      "name" : "X_X_X21",
+      "channelNumber" : "CHA_06"
+    }, {
+      "name" : "X_X_X22",
+      "channelNumber" : "CHA_07"
+    }, {
+      "name" : "X_X_X23",
+      "channelNumber" : "CHA_08"
+    }, {
+      "name" : "X_X_X24",
+      "channelNumber" : "CHA_09"
+    }, {
+      "name" : "X_X_X25",
+      "channelNumber" : "CHA_10"
+    }, {
+      "name" : "X_X_X26",
+      "channelNumber" : "CHA_11"
+    }, {
+      "name" : "X_X_X27",
+      "channelNumber" : "CHA_12"
+    }, {
+      "name" : "X_X_X31",
+      "channelNumber" : "CHA_01"
+    }, {
+      "name" : "X_X_X32",
+      "channelNumber" : "CHA_02"
+    }, {
+      "name" : "X_X_X33",
+      "channelNumber" : "CHA_03"
+    }, {
+      "name" : "X_X_X34",
+      "channelNumber" : "CHA_04"
+    }, {
+      "name" : "X_X_X35",
+      "channelNumber" : "CHA_05"
+    }, {
+      "name" : "X_X_X36",
+      "channelNumber" : "CHA_06"
+    }, {
+      "name" : "X_X_X37",
+      "channelNumber" : "CHA_07"
+    }, {
+      "name" : "X_X_X38",
+      "channelNumber" : "CHA_08"
+    }, {
+      "name" : "X_X_X39",
+      "channelNumber" : "CHA_09"
+    }, {
+      "name" : "X_X_X40",
+      "channelNumber" : "CHA_10"
+    }, {
+      "name" : "X_X_X42",
+      "channelNumber" : "CHA_12"
+    }, {
+      "name" : "X_X_X41",
+      "channelNumber" : "CHA_11"
+    } ],
+    "pinDetails" : {
+      "pinDirection" : {
+        "A21" : "IN",
+        "A22" : "IN",
+        "A23" : "IN",
+        "A24" : "IN",
+        "A36" : "IN",
+        "A36_AIC" : "IN",
+        "A37" : "IN",
+        "A37_AIC" : "IN",
+        "A38" : "IN",
+        "A38_AIC" : "IN",
+        "A39" : "IN",
+        "A39_AIC" : "IN",
+        "A43" : "IN",
+        "A43_AIC" : "IN",
+        "A43_VI" : "IN",
+        "K30" : "IN",
+        "K30_AIC" : "IN",
+        "K30_VI" : "IN",
+        "K31" : "IN",
+        "K32" : "IN",
+        "K33" : "IN",
+        "K34" : "IN",
+        "K36" : "IN",
+        "K37" : "IN",
+        "K37_AIC" : "IN",
+        "K37_VI" : "IN",
+        "K38" : "IN",
+        "K38_AIC" : "IN",
+        "K39" : "IN",
+        "K39_AIC" : "IN",
+        "K40" : "IN",
+        "K40_AIC" : "IN",
+        "K41" : "IN",
+        "K41_AIC" : "IN",
+        "K42" : "IN",
+        "K42_AIC" : "IN",
+        "K43" : "IN",
+        "K44" : "IN",
+        "K44_AIC" : "IN",
+        "K45" : "IN",
+        "K45_AIC" : "IN",
+        "K52" : "IN",
+        "K53" : "IN",
+        "K54" : "IN",
+        "K54_AIC" : "IN",
+        "K54_VI" : "IN",
+        "K55" : "IN",
+        "K55_AIC" : "IN",
+        "K55_VI" : "IN",
+        "K56" : "IN",
+        "K57" : "IN",
+        "K58" : "IN",
+        "K59" : "IN",
+        "K60" : "IN",
+        "K61" : "IN",
+        "K61_AIC" : "IN",
+        "K61_VI" : "IN",
+        "K63" : "IN",
+        "K63_AIC" : "IN",
+        "K64" : "IN",
+        "K64_AIC" : "IN",
+        "K65" : "IN",
+        "K65_AIC" : "IN",
+        "K62" : "INOUT",
+        "K62_AV" : "OUT",
+        "A01" : "OUT",
+        "A02" : "OUT",
+        "A02_PC" : "OUT",
+        "A03" : "OUT",
+        "A03_PC" : "OUT",
+        "A04" : "OUT",
+        "A04_DC" : "OUT",
+        "A05" : "OUT",
+        "A05_PC" : "OUT",
+        "A06" : "OUT",
+        "A07" : "OUT",
+        "A07_PC" : "OUT",
+        "A08" : "OUT",
+        "A08_PC" : "OUT",
+        "A09" : "OUT",
+        "A09_PC" : "OUT",
+        "A10" : "OUT",
+        "A10_DC" : "OUT",
+        "A11" : "OUT",
+        "A13" : "IN",
+        "A14" : "IN",
+        "A16" : "OUT",
+        "A17" : "OUT",
+        "A17_PC" : "OUT",
+        "A18" : "OUT",
+        "A18_PC" : "OUT",
+        "A19" : "OUT",
+        "A19_PC" : "OUT",
+        "A20" : "OUT",
+        "A20_PC" : "OUT",
+        "A25" : "IN",
+        "A26" : "IN",
+        "A27" : "IN",
+        "A28" : "IN",
+        "A29" : "IN",
+        "A31" : "OUT",
+        "A31_PC" : "OUT",
+        "A32" : "OUT",
+        "A32_PC" : "OUT",
+        "A33" : "OUT",
+        "A33_PC" : "OUT",
+        "A34" : "OUT",
+        "A34_PC" : "OUT",
+        "A35" : "OUT",
+        "A35_PC" : "OUT",
+        "A40" : "IN",
+        "A41" : "IN",
+        "A42" : "IN",
+        "A46" : "OUT",
+        "A46_PC" : "OUT",
+        "A47" : "OUT",
+        "A47_PC" : "OUT",
+        "A48" : "OUT",
+        "A48_PC" : "OUT",
+        "A49" : "OUT",
+        "A50" : "OUT",
+        "A51" : "OUT",
+        "A51_PC" : "OUT",
+        "A52" : "OUT",
+        "A52_PC" : "OUT",
+        "A53" : "OUT",
+        "A53_PC" : "OUT",
+        "A54" : "OUT",
+        "A54_PC" : "OUT",
+        "A55" : "OUT",
+        "A56" : "OUT",
+        "A57" : "IN",
+        "A58" : "OUT",
+        "K07" : "OUT",
+        "K07_PC" : "OUT",
+        "K08" : "OUT",
+        "K08_PC" : "OUT",
+        "K09" : "OUT",
+        "K09_PC" : "OUT",
+        "K10" : "IN",
+        "K11" : "IN",
+        "K12" : "OUT",
+        "K12_PC" : "OUT",
+        "K13" : "OUT",
+        "K13_DC" : "OUT",
+        "K14" : "OUT",
+        "K14_PC" : "OUT",
+        "K15" : "OUT",
+        "K15_PC" : "OUT",
+        "K16" : "OUT",
+        "K16_PC" : "OUT",
+        "K17" : "OUT",
+        "K17_PC" : "OUT",
+        "K35" : "IN",
+        "K21" : "IN",
+        "K22" : "IN",
+        "K25" : "OUT",
+        "K25_AV" : "OUT",
+        "K29" : "OUT",
+        "K29_PC" : "OUT",
+        "K51" : "OUT",
+        "K51_PC" : "OUT",
+        "K73" : "OUT",
+        "K73_PC" : "OUT",
+        "K74" : "IN",
+        "K75" : "IN",
+        "K76" : "IN",
+        "K77" : "IN",
+        "K78" : "IN",
+        "K80" : "OUT",
+        "K81" : "OUT",
+        "K82" : "OUT",
+        "K83" : "OUT",
+        "K84" : "OUT",
+        "K85" : "OUT",
+        "K86" : "OUT",
+        "K87" : "OUT",
+        "A12" : "OUT",
+        "A12_AV" : "OUT",
+        "A59" : "IN",
+        "A59_A44" : "IN"
+      },
+      "pinRefDetails" : {
+        "K52" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X01",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K52-K57"
+            }
+          }
+        },
+        "K60" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X02",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K60-K58"
+            }
+          }
+        },
+        "K53" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X03",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K53-K36"
+            }
+          }
+        },
+        "K59" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X04",
+              "sigType" : "SENTSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K59-K56"
+            }
+          }
+        },
+        "K39" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X05",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K39_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X05",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K38" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X06",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K38_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X06",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K40" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X07",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K40_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X07",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K41" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X08",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K41_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X08",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K42" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X09",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K42_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X09",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K43" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X10",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K54" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X11",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K54_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X11",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K54_VI" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "I_F_DSM1",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "true",
+              "channelName" : "K54_VI-K37_VI"
+            }
+          }
+        },
+        "K55" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X12",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "true",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K57" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X16",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K52-K57"
+            }
+          }
+        },
+        "K58" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X17",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K60-K58"
+            }
+          }
+        },
+        "K36" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X18",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K53-K36"
+            }
+          }
+        },
+        "K56" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X19",
+              "sigType" : "SENTSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "SENTSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K59-K56"
+            }
+          }
+        },
+        "K45" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X20",
+              "sigType" : "ResistanceMeasurementSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K45_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X20",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K44" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X21",
+              "sigType" : "ResistanceMeasurementSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K44_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X21",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K65" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X22",
+              "sigType" : "ResistanceMeasurementSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K65_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X22",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K63" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X23",
+              "sigType" : "ResistanceMeasurementSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K63_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X23",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K64" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X24",
+              "sigType" : "ResistanceMeasurementSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K64_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X24",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K62" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "",
+              "sigType" : "",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            },
+            "OUT" : {
+              "deviceType" : "AOV",
+              "sigName" : "X_X_X25",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K62_AV" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "AOV",
+              "sigName" : "SAV_XX25",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K37" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X26",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K37_VI" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "I_F_DSM3",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "true",
+              "channelName" : "K54_VI-K37_VI"
+            }
+          }
+        },
+        "K37_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X26",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K55_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X12",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K55_VI" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "I_F_DSM2",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "true",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K55_VI-K61_VI"
+            }
+          }
+        },
+        "K61_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X27",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K61_VI" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "I_F_DSM4",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K55_VI-K61_VI"
+            }
+          }
+        },
+        "K30_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X42",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K30_VI" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "I_F_DSM5",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "true",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K30_VI-A43_VI"
+            }
+          }
+        },
+        "A43_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X41",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A43_VI" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "I_F_DSM6",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "K30_VI-A43_VI"
+            }
+          }
+        },
+        "K61" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X27",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A21" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X31",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "A21-A22"
+            }
+          }
+        },
+        "A22" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X32",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "A21-A22"
+            }
+          }
+        },
+        "A23" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X33",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "A23-A24"
+            }
+          }
+        },
+        "A24" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X34",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "Frequency", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false",
+              "channelName" : "A23-A24"
+            }
+          }
+        },
+        "A36" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X35",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A36_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X35",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A37" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X36",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "true",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A37_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X36",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A38" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X37",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A38_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X37",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A39" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X38",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A39_AIC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DC_MH_SPL",
+              "sigName" : "X_X_X38",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K32" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X39",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K33" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X40",
+              "sigType" : "ResistanceMeasurementSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "ResistanceMeasurementSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K30" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X42",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "true",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A43" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "L9966",
+              "sigName" : "X_X_X41",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "AnalogSignal", "DigitalSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "K07" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0101",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K07_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6140_RH01",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K09" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0107",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K09_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6150_RH02",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K73" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0103",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K73_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6160_RH03",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K08" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0104",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K08_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6170_RH04",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K21" : {
+          "type" : "L9966",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DIO",
+              "sigName" : "I_S_INH2",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K22" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "DIO",
+              "sigName" : "I_S_INH1",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K29" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0105",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K29_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6180_RH05",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K17" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0106",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K17_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6190_RH06",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A58" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_0102",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K51" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0201",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K51_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_S7000_OA1",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K12" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0203",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K12_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_S7000_OA2",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K13" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_0206",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K13_DC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "DIC",
+              "sigName" : "SAV_S7000_OA3",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K16" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0202",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K16_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6200_RL04",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K14" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0204",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K14_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6210_RL05",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K15" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_0205",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K15_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6220_RL06",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A56" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_0207",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A11" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_0208",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A32" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1101",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A32_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6230_RH08",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A47" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1107",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A47_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6240_RH09",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A31" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1103",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A31_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6250_RH10",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A48" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1104",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A48_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6260_RH11",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A46" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1105",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A46_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6270_RH12",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A33" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1106",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A33_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6280_RH13",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A49" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_1102",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A03" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1201",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A03_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_S7200_OA1",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A18" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1203",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A18_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_S7200_OA2",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A04" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_1206",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A04_DC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "DIC",
+              "sigName" : "SAV_S7200_OA3",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A19" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1202",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A19_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6290_RL12",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A05" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1204",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A05_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6300_RL13",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A20" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_1205",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A20_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6310_RL14",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A55" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_1207",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A01" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_1208",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A34" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2101",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A34_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6320_RH15",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A51" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2107",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A51_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6330_RH16",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A35" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2103",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A35_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6340_RH17",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A53" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2104",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A53_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6350_RH18",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A52" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2105",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A52_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6360_RH19",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A54" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2106",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A54_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6370_RH20",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A50" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_2102",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A08" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2201",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A08_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_S7400_OA1",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A07" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2203",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A07_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_S7400_OA2",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A10" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_2206",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A10_DC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "DIC",
+              "sigName" : "SAV_S7400_OA3",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Sense_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A09" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2202",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A09_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6380_RL20",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A02" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2204",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A02_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6390_RL21",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A17" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsPWM_2205",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A17_PC" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PIC",
+              "sigName" : "SAV_MEU_S6400_RL22",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "Current_Measurement",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A06" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_2207",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A16" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "FSCSPS",
+              "sigName" : "FscSpsDIO_2208",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K74" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN03",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K75" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN06",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K76" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN02",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K77" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN04",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K78" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN01",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K31" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN07",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K34" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN08",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A13" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN09",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A40" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN16",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A41" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN17",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A42" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN18",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A25" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN19",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A26" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN20",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A27" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN21",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A14" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN10",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A57" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN11",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A28" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN12",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A29" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN13",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K11" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN14",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K35" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN15",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "K80" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_T_RL25",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K81" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_T_RL26",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K82" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_T_RL27",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K83" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_T_RL28",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K84" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_S_RL29",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K85" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_S_RL30",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K86" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_S_RL31",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K87" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "TLE7244",
+              "sigName" : "O_S_RL32",
+              "sigType" : "DigitalSignal",
+              "allowSigTypes" : [ "DigitalSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K25" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PVG",
+              "sigName" : "O_V_PVG1",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K25_AV" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PVG",
+              "sigName" : "SAV_PVG1_DIAG",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "K10" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_A_AN05",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY"
+            }
+          }
+        },
+        "A12" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PVG",
+              "sigName" : "O_V_PVG2",
+              "sigType" : "PWMSignal",
+              "allowSigTypes" : [ "PWMSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A12_AV" : {
+          "type" : "EXT",
+          "listOfSignals" : {
+            "OUT" : {
+              "deviceType" : "PVG",
+              "sigName" : "SAV_PVG2_DIAG",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal", "RoutedAnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "false",
+              "accessType" : "WRITE"
+            }
+          }
+        },
+        "A59" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "IA_CRSPOS",
+              "sigType" : "AnalogSignal",
+              "allowSigTypes" : [ "AnalogSignal" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        },
+        "A59_A44" : {
+          "type" : "INT",
+          "listOfSignals" : {
+            "IN" : {
+              "deviceType" : "Internal_device",
+              "sigName" : "I_F_IND1",
+              "sigType" : "Frequency",
+              "allowSigTypes" : [ "Frequency" ],
+              "isMeasurement" : "None",
+              "isVisible" : "true",
+              "accessType" : "READ_ONLY",
+              "isPinDualNature" : "false",
+              "isPhaseMeasurement" : "false"
+            }
+          }
+        }
+      }
+    },
+    "sentFreqDerivation" : [ {
+      "signalName" : "X_X_X01",
+      "channelNumber" : "CHA_01",
+      "hwChannel" : "CH4",
+      "port" : "PORT_31_09",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH1",
+      "sentModule" : "SENT1",
+      "pinName" : "K52",
+      "alternativeInput" : "ALTI2",
+      "hwModuleChannelNumber" : "CH21",
+      "mcsChannel" : "MCS6_CH1"
+    }, {
+      "signalName" : "X_X_X02",
+      "channelNumber" : "CHA_02",
+      "hwChannel" : "CH3",
+      "port" : "PORT_31_11",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH3",
+      "sentModule" : "SENT2",
+      "pinName" : "K60",
+      "alternativeInput" : "ALTI2",
+      "hwModuleChannelNumber" : "CH23",
+      "mcsChannel" : "MCS5_CH3"
+    }, {
+      "signalName" : "X_X_X03",
+      "channelNumber" : "CHA_03",
+      "hwChannel" : "CH3",
+      "port" : "PORT_31_08",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH0",
+      "sentModule" : "SENT3",
+      "pinName" : "K53",
+      "alternativeInput" : "ALTI2",
+      "hwModuleChannelNumber" : "CH20",
+      "mcsChannel" : "MCS5_CH0"
+    }, {
+      "signalName" : "X_X_X04",
+      "channelNumber" : "CHA_04",
+      "hwChannel" : "CH1",
+      "port" : "PORT_31_10",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH2",
+      "sentModule" : "SENT4",
+      "pinName" : "K59",
+      "alternativeInput" : "ALTI2",
+      "hwModuleChannelNumber" : "CH22",
+      "mcsChannel" : "MCS5_CH2"
+    }, {
+      "signalName" : "X_X_X16",
+      "channelNumber" : "CHA_01",
+      "hwChannel" : "CH0",
+      "port" : "PORT_10_11",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH2",
+      "sentModule" : "SENT1",
+      "pinName" : "K57",
+      "alternativeInput" : "ALTI2",
+      "hwModuleChannelNumber" : "CH19",
+      "mcsChannel" : "MCS6_CH2"
+    }, {
+      "signalName" : "X_X_X17",
+      "channelNumber" : "CHA_02",
+      "hwChannel" : "CH2",
+      "port" : "PORT_01_09",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH1",
+      "sentModule" : "SENT2",
+      "pinName" : "K58",
+      "alternativeInput" : "ALTI1",
+      "hwModuleChannelNumber" : "CH16",
+      "mcsChannel" : "MCS5_CH1"
+    }, {
+      "signalName" : "X_X_X18",
+      "channelNumber" : "CHA_03",
+      "hwChannel" : "CH0",
+      "port" : "PORT_01_08",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH4",
+      "sentModule" : "SENT3",
+      "pinName" : "K36",
+      "alternativeInput" : "ALTI1",
+      "hwModuleChannelNumber" : "CH17",
+      "mcsChannel" : "MCS5_CH4"
+    }, {
+      "signalName" : "X_X_X19",
+      "channelNumber" : "CHA_04",
+      "hwChannel" : "CH1",
+      "port" : "PORT_01_10",
+      "timerModule" : "TIM5",
+      "timerChannel" : "CH5",
+      "sentModule" : "SENT4",
+      "pinName" : "K56",
+      "alternativeInput" : "ALTI1",
+      "hwModuleChannelNumber" : "CH18",
+      "mcsChannel" : "MCS5_CH5"
+    }, {
+      "signalName" : "X_X_X31",
+      "channelNumber" : "CHA_01",
+      "hwChannel" : "CH0",
+      "port" : "PORT_10_09",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH1",
+      "sentModule" : "SENT1",
+      "pinName" : "A21",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS4_CH1"
+    }, {
+      "signalName" : "X_X_X32",
+      "channelNumber" : "CHA_02",
+      "hwChannel" : "CH2",
+      "port" : "PORT_10_10",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH2",
+      "sentModule" : "SENT2",
+      "pinName" : "A22",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS4_CH2"
+    }, {
+      "signalName" : "X_X_X33",
+      "channelNumber" : "CHA_03",
+      "hwChannel" : "CH0",
+      "port" : "PORT_10_14",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH3",
+      "sentModule" : "SENT3",
+      "pinName" : "A23",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS4_CH3"
+    }, {
+      "signalName" : "X_X_X34",
+      "channelNumber" : "CHA_04",
+      "hwChannel" : "CH1",
+      "port" : "PORT_10_13",
+      "timerModule" : "TIM4",
+      "timerChannel" : "CH4",
+      "sentModule" : "SENT4",
+      "pinName" : "A24",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS4_CH4"
+    }, {
+      "signalName" : "I_F_DSM1",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_22_09",
+      "timerModule" : "TIM3",
+      "timerChannel" : "CH5",
+      "sentModule" : "",
+      "pinName" : "K54_VI",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS3_CH5"
+    }, {
+      "signalName" : "I_F_DSM2",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_04",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH4",
+      "sentModule" : "",
+      "pinName" : "K55_VI",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS6_CH4"
+    }, {
+      "signalName" : "I_F_DSM3",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_22_07",
+      "timerModule" : "TIM3",
+      "timerChannel" : "CH3",
+      "sentModule" : "",
+      "pinName" : "K37_VI",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS3_CH3"
+    }, {
+      "signalName" : "I_F_DSM4",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_05",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH5",
+      "sentModule" : "",
+      "pinName" : "K61_VI",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS6_CH5"
+    }, {
+      "signalName" : "I_F_DSM5",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_06",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH6",
+      "sentModule" : "",
+      "pinName" : "K30_VI",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS6_CH6"
+    }, {
+      "signalName" : "I_F_DSM6",
+      "channelNumber" : "",
+      "hwChannel" : "",
+      "port" : "PORT_24_07",
+      "timerModule" : "TIM6",
+      "timerChannel" : "CH7",
+      "sentModule" : "",
+      "pinName" : "A43_VI",
+      "alternativeInput" : "",
+      "hwModuleChannelNumber" : "",
+      "mcsChannel" : "MCS6_CH7"
+    } ],
+    "signalFilter" : [ ],
+    "udsFileBlockInfo" : {
+      "selectedUDSFiles" : [ "cantp_uds_project_ecucvalues", "dcm_ecucvalues" ],
+      "selectedSecurityAccessFiles" : [ "dcm_ecucvalues" ],
+      "rxRegex" : "(0x18DA)([0-9a-fA-F]{1}[0-9a-eA-E]{1})(FA)",
+      "txRegex" : "(0x18DA)(FA)([0-9a-fA-F]{1}[0-9a-eA-E]{1})"
+    },
+    "selectedDIDFileInfo" : {
+      "fileName" : "rbr_uds_parameters_processdata_ecucvalues"
+    },
+    "sentBufferedSizeInfo" : {
+      "slowDataBuffered" : 0,
+      "fastDataBuffered" : 0
+    },
+    "messageFilter" : [ ],
+    "selectedEMFileInfo" : {
+      "bdsDsmFiles" : [ "rbr_dsm_confdata.xml", "bds_dsm_confdata.xml" ],
+      "dfesFile" : "ErrorCodesRC40"
+    },
+    "canController" : {
+      "canControllerName" : "CAN_A_Motor_SG",
+      "arPkgpath" : "/RB/UBK/Project",
+      "channelId" : "GEN_CAN"
+    },
+    "controllerNames" : [ {
+      "CONTROLLER_ID" : "0",
+      "CONTROLLER_NAME" : "CAN_1",
+      "SHORT_NAME" : "CAN_1"
+    }, {
+      "CONTROLLER_ID" : "1",
+      "CONTROLLER_NAME" : "CAN_2",
+      "SHORT_NAME" : "CAN_2"
+    }, {
+      "CONTROLLER_ID" : "0",
+      "CONTROLLER_NAME" : "CAN_3",
+      "SHORT_NAME" : "CAN_3"
+    }, {
+      "CONTROLLER_ID" : "3",
+      "CONTROLLER_NAME" : "CAN_4",
+      "SHORT_NAME" : "CAN_4"
+    } ],
+    "selectedOsFileTaskInfo" : {
+      "osTaskInfo" : {
+        "rba_OsShell_EcucValues" : [ "OS_core3_20ms_Task", "OS_Shutdown_10ms_Task", "OS_CalWupAsw3_10ms_Task", "OS_ReIniModeM_Task", "OS_AswBg_Task_Untrusted", "OS_CalWup_IniEnd_Task", "OS_InfraBswApp_10ms_Task", "OS_core2_AswBg_Task", "OS_AswShutdown_Task_Untrusted", "OS_5ms_Task_Untrusted", "OS_WdgM_Task", "OS_core2_80ms_Task", "OS_IniDrv_Task_Untrusted", "OS_EngReStrtModeM_Task", "OS_CalWup_Ini_Task", "OS_core3_80ms_Task", "OS_200ms_Task", "OS_CalWup_10ms_Task", "OS_InfraAsw2App_10ms_Task", "OS_10ms_Task_Untrusted", "OS_DSM_Clear_Task", "OS_80ms_Task", "OS_1000ms_Task", "OS_IniDrv_Task", "OS_EpmNoSync_Task", "OS_core2_40ms_Task", "OS_core3_1ms_Task", "OS_Asw1Bg_Task", "OS_BswBg_Task", "OS_core2_20ms_Task", "OS_InfraAsw1App_10ms_Task", "OS_Shutdown_Asw1_Task", "OS_core3_IniDrv_Task", "OS_10ms_Task", "OS_core3_5ms_Task", "OS_80ms_Task_Untrusted", "OS_RbrAfterRun_Task", "OS_core3_50ms_Task", "OS_20ms_Task_Untrusted", "OS_2ms_Task_Untrusted", "OS_core2_IniDrv_Task", "OS_1ms_Task", "OS_core2_5ms_Task", "OS_Ini_Task", "OS_Shutdown_Seq_Task", "OS_1ms_Task_Untrusted", "OS_core3_100ms_Task", "OS_Shutdown_Asw3_Task", "OS_IniEnd_Task", "OS_5ms_Task", "OS_50ms_Task", "OS_core3_10ms_Task", "OS_2ms_Task", "OS_CalWupAsw1_10ms_Task", "OS_ReIni_Task", "OS_Mo_Task", "OS_40ms_Task_Untrusted", "OS_EngReStrt_Task", "OS_InfraAsw3App_10ms_Task", "OS_DSM_Reini_Task", "OS_core3_AswBg_Task", "OS_core2_AswShutdown_Task", "OS_core2_50ms_Task", "OS_core2_1ms_Task", "OS_core2_2ms_Task", "OS_100ms_Task", "OS_100ms_Task_Untrusted", "OS_core3_2ms_Task", "OS_CalWupAsw2_10ms_Task", "OS_core2_10ms_Task", "OS_core2_100ms_Task", "OS_CalWup_20ms_Task", "OS_CalWup_2ms_Task", "OS_CalWup_Bg_Task", "OS_20ms_Task", "OS_Shutdown_Asw2_Task", "EcucCoreDefinition_2", "OS_core3_AswShutdown_Task", "EcucCoreDefinition_3", "OS_40ms_Task", "OS_50ms_Task_Untrusted", "OS_CalWup_100ms_Task", "OS_Shutdown_Bsw_Task", "OS_core3_40ms_Task" ]
+      },
+      "osTaskOsProcessInfo" : {
+        "rba_OsShell_EcucValues" : {
+          "OS_IniDrv_Task" : [ "OsIniProc" ]
+        }
+      }
+    }
+  },
+  "ecuVariantNumber" : 3,
+  "ecuVariantName" : "RC27-18(E)/40",
+  "easyConfigVersion" : "3.16.0",
+  "workflow" : "40.ml290-bs.rts"
+}
